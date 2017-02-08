@@ -10,7 +10,7 @@ from .keys import flask_key, twitter_key, twitter_secret
 if 'openshift' in sys.path[1]:
     PATH_BASE = '/var/lib/openshift/589b8f240c1e66aa7c00006e/' +\
                 'app-root/runtime/repo/'
-    SERVER_URL = 'coordenadas-pewen.rhcloud.com'
+    SERVER_URL = 'https://coordenadas-pewen.rhcloud.com'
 else:
     PATH_BASE = './'
     SERVER_URL = 'http://127.0.0.1:5000/'
