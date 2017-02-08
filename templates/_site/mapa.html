@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sitio Web oficial de la TEDxRíoCuarto. Nuestra primera edición fue realizada el día 9 de octubre del 2015 en el Teatro Municipal de la ciudad de Río Cuarto - Córdoba - Argentina.">
+  <meta name="keywords" content="Trabajo infantil, cortardeos, ladrillos, córdoba, chequeado">
+  <meta name="author" content="Franco N. Bellomo">
+  
+  <title>Mapa Colectivo | Coordenadas de Trabajo Infantil</title>
+  
+  <link rel="canonical" href="/mapa_cortaderos//mapa.html">
+  <link rel="alternate" type="application/rss+xml" title="Coordenadas de Trabajo Infantil" href="/mapa_cortaderos//feed.xml">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="static/libs/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="static/css/animate.css">
+  <!-- Bootstrap-slider CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/css/bootstrap-slider.min.css">
+  <!-- Personal CSS -->
+  <link rel="stylesheet" href="static/css/main.css">
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Personal JS Common Function -->
+  <script src="static/js/commonFunctions.js"></script>
+</head>
+
+
+  <body>
+    <header class="header-hidden">
+      <h1>Informe trabajo infantil en cortaderos de ladrillos </h1>
+    </header>
+
+    <!-- Navigation Bar -->
+<!-- ============== -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <header class="header-hidden">
+    <h2>Menú de Navegación</h2>
+  </header>
+
+  <div class="container-fluid" style="padding-bottom: 20px;">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse"
+	      data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- logo -->
+      <a class="navbar-brand logo-img">
+	<span>
+	  <img class="img-responsive" src="static/img/logo_chequeado.png"
+	       style="max-width: 400px;" />
+	</span>
+      </a>
+
+    </div><!--/ navbar-header -->
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+	
+        <li><a href="{{ serverUrl }}">INICIO</a></li>
+        <li><a href="{{ serverUrl + "mapa" }}">MAPA COLECTIVO</a></li>
+        <li><a href="{{ serverUrl + "analisis" }}">ANÁLISIS</a></li>
+	<li><a href="{{ serverUrl + "equipo" }}">EQUIPO</a></li>
+        <li><a href="#footer">CONTACTOS</a></li>
+
+	{% if not session["access_token"] %}
+	<li><a href="{{ serverUrl + "login" }}">LOGIN</a></li>
+	{% else %}
+	<li><a href="{{ serverUrl + "logout" }}">LOGOUT</a></li>
+	{% endif %}
+	
+      </ul>
+    </div><!--/ collapse navbar-collapse -->
+  </div><!--/ container-fluid -->
+</nav>
+
+
+    <!-- Video de Chequeado -->
+<!-- ================== -->
+<section id="videoChequeado">
+  <div class="container">
+    <div class="row">
+
+      <header>
+	<h2 class="video_title">Mapeando entre todos</h2>
+      </header>
+      
+      <div class="col-md-offset-1 col-md-10">
+	<iframe width="854" height="480"
+		src="https://www.youtube.com/embed/YYeB0dU3Qhw"
+		allowfullscreen>
+	</iframe>
+      </div><!--/col-md-10 -->
+
+    </div><!--/row -->
+  </div><!--/container -->
+</section><!--/videoChequeado -->
+
+
+<!-- Como colaborar -->
+<!-- ============== -->
+<section id="howCollaborate" class="first_element">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-7 col-md-5">
+	<div class="box-def wow bounceInLeft animated"
+	     style="margin-top: 0px;">
+	  <header>
+	    <h2>Como Colaborar</h2>
+	  </header>
+	  <p>Si quieres colaborar con Chequeado, podes ayudar sumando
+	    puntos en el mapa: Cortaderos, Centros de Salud, Escuelas
+	    Primarias y Secundarias.<br>
+	    Para colaborar sólo debes hacer click sobre el punto del
+	    mapa donde quieres dejar registrado el dato y luego nuestro
+	    equipo de trabajo procederá a verificar el mismo para dejarlo
+	    asentado definitivamente.<br>
+	    Tu participación es muy importante para poder generar un
+	    impacto positivo sobre miles de niños, niñas y adolescentes
+	    que diariamente sufren la explotación infantil en cortaderos
+	    de ladrillos.<br>
+	    Para otros datos que quieras aportar podes hacerlo mediante
+	    nuestras <a href="#contact">redes sociales</a></p>
+	</div><!--/box-def -->
+      </div><!--/col-md-5-->
+    </div><!--/row -->
+  </div><!--/container -->
+</section><!--/howCollaborate -->
+
+
+<!-- Mapa Colaborativo -->
+<!-- ================= -->
+<section id="mapaColaborativo">
+  <div class="container">
+
+    <header>
+      <h2 class="mapa_title">Mapa colaborativo</h2>
+    </header>
+    
+    <div class="row">
+      <div class="col-md-12">
+	<div id="map"></div>
+	<div id="legend"><h3>Referencias</h3></div>
+      </div><!--/col -->
+    </div><!--/row -->
+
+  </div><!--/container -->
+</section><!--/mapaColaborativo -->
+
+
+<!-- Modal Crear una nueva instituciones -->
+<!-- =================================== -->
+<div class="modal fade" id="createWindow" tabindex="-1"
+     role="dialog" aria-labelledby="createWindowLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"
+		aria-label="Close">
+	  <span aria-hidden="true">&times;</span>
+	</button>
+        <h4 class="modal-title" id="createWindowlLabel">Agregar Punto</h4>
+      </div><!--/modal-header -->
+      
+      <div class="modal-body">
+	
+	{% if not session["access_token"] %}
+	<p>Muchas gracias por agregar un nuevo punto. Por motivos de seguridad
+	  y confianza de los datos, los nuevos punto son verificados por un
+	  miembro de nuestro equipo antes de mostrarlo en el mapa</p>
+	{% else %}
+	<p>Como usted esta logeado, los puntos que agrege se reflejaran
+	  directamente en el mapa.</p>
+	{% endif %}
+	
+
+        <form class="form-horizontal">
+	  <!-- Coordenadas -->
+	  <div class="form-group">
+	    <label for="a" class="col-sm-3 control-label">Coordinadas:</label>
+	    <div class="col-sm-9" style="padding-top: 7px;">
+	      <span id="showCoord"></span>
+	    </div><!--/col-->
+	  </div><!--/form-group -->
+
+	  <!-- Nombre -->
+          <div class="form-group">
+	    <label for="formName" class="col-sm-3 control-label">Nombre:</label>
+	    <div class="col-sm-9">
+	      <input type="text" class="form-control" id="formNameCreate"
+		     placeholder="Nombre de la institucion">
+	    </div><!--/col -->
+          </div><!--/form-group -->
+
+	  <!-- Tipo -->
+	  <div class="form-group">
+	    <label for="formType" class="col-sm-3 control-label">Tipo:</label>
+	    <div class="col-sm-9">
+	      <select id="formType">
+		<option value="seleccionar">Seleccionar una opción</option>
+		
+		{% for name in layersFullName %}
+		<option value="{{ name }}">{{ layersFullName[name] }}</option>
+		{% endfor %}
+		
+	      </select>
+	    </div><!--/col -->
+          </div><!--/form-group -->
+
+	  <!-- Observación -->
+          <div class="form-group">
+	    <label for="formText" class="col-sm-3 control-label">
+	      Observación:
+	    </label>
+	    <div class="col-sm-9">
+	      <textarea class="form-control" id="formText"></textarea>
+	    </div><!--/col -->
+          </div><!--/form-group -->
+        </form>
+      </div><!--/modal-body -->
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">
+	  Cerrar
+	</button>
+        <button id="createButton" type="button" class="btn btn-primary"
+		onclick="">
+	  Agregar
+	</button>
+      </div><!--/modal-footer -->
+      
+    </div><!--/modal-content -->
+  </div><!--/modal-dialog -->
+</div><!--/modal fade -->
+
+
+<!-- Modal Modificar atributos instituciones existentes -->
+<!-- ================================================== -->
+<div class="modal fade" id="modifyWindow" tabindex="-1"
+     role="dialog" aria-labelledby="modifyWindowLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"
+		aria-label="Close">
+	  <span aria-hidden="true">&times;</span>
+	</button>
+        <h4 class="modal-title" id="modifyWindowLabel">Modificar</h4>
+      </div><!--/modal-header -->
+      
+      <div class="modal-body">
+	<p id="showCoord">Coordinadas</p>
+        <form>
+          <div class="form-group">
+	    <label for="formName" class="control-label">Nombre:</label>
+	    <input type="text" class="form-control" id="formName">
+          </div><!--/form-group -->
+          <div class="form-group">
+	    <label for="formText" class="control-label">Información Adicional:
+	    </label>
+	    <textarea class="form-control" id="formText"></textarea>
+          </div><!--/form-group -->
+        </form>
+      </div><!--/modal-body -->
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">
+	  Cerrar
+	</button>
+        <button id="modifyButton" type="button" class="btn btn-primary"
+		onclick="">
+	  Modificar
+	</button>
+      </div><!--/modal-footer -->
+
+    </div><!--/modal-content -->
+  </div><!--/modal-dialog -->
+</div><!--/modal fade -->
+
+
+<!-- Modal Eliminar instituciones existentes -->
+<!-- ======================================= -->
+<div class="modal fade" id="deletWindow" tabindex="-1"
+     role="dialog" aria-labelledby="deletWindowLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"
+		aria-label="Close">
+	  <span aria-hidden="true">&times;</span>
+	</button>
+        <h4 class="modal-title" id="deletWindowLabel">Eliminar</h4>
+      </div><!--/modal-header -->
+      
+      <div class="modal-body">
+	
+	{% if not session["access_token"] %}
+	<p>Eliminar un establecimiento de nuestra lista indica que
+	  este no existe más o no continua funcionando.</p>
+	<p>La actualización de esta modificación no es inmediata,
+	  debido a que tiene que ser corroborada por un tercero
+	  para mayor seguridad</p>
+	{% else %}
+	<p>Eliminar un establecimiento de nuestra lista indica que
+	  este no existe más o no continua funcionando.</p>
+	<p>Usted esta logeado, por lo cual al borrar este punto lo
+	  eliminara definitivamente</p>
+	{% endif %}
+	
+      </div><!--/modal-body -->
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">
+	  Cerrar
+	</button>
+        <button id="deletButton" type="button" class="btn btn-danger"
+		onclick="">
+	  Eliminar
+	</button>
+      </div><!--/modal-footer -->
+
+    </div><!--/modal-content -->
+  </div><!--/modal-dialog -->
+</div><!--/modal fade -->
+
+
+<script>
+  var serverUrl = "{{ serverUrl }}";
+  var layersNames = {{ layersNames | safe }};
+  var layersFullName = {{ layersFullName | safe }};
+</script>
+
+
+<!-- Personal script to make plot -->
+<script src="static/js/colaborative/colaborative_map.js"></script>
+<!-- Modal script -->
+<script src="static/js/colaborative/modal.js"></script>
+<!-- Resize the Map -->
+<script src="static/js/resize.js"></script>
+<!-- Google Maps API -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDM12MMIbSoDFdhTO0yDpXQcZhYryxeFG4&callback=initMap" async defer></script>
+
+
+    
+    <!-- footer -->
+<!-- ====== -->
+<footer id="footer">
+  <h2 class="header-hidden">Footer</h2>
+  <div class="footer section">
+    <div class="container">
+      <h3 class="title text-center" id="contact">Contactanos</h3>
+
+      <ul class="social-links">
+ 	<li class="facebook">
+	  <a target="_blank" href="https://www.facebook.com/Chequeado"><i class="fa fa-facebook"></i></a>
+	</li>
+	
+	<li class="twitter">
+	  <a target="_blank" href="https://twitter.com/chequeado"><i class="fa fa-twitter"></i></a>
+	</li>
+      </ul>
+
+      <div class="footer-texto">
+	<h3 class="header-hidden">Licencia</h3>
+	<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+	<p> <strong><i class="fa fa-code" aria-hidden="true"></i></strong> Hecho con <i class="fa fa-heart" aria-hidden="true" style="color: red;"></i> por <a href="http://twitter.com/fnbellomo" target="_blank">@fnbellomo</a>, <a href="http://twitter.com/ucaomo" target="_blank">@ucaomo</a>, <a href="http://twitter.com/JMGonzalez30" target="_blank">@JMGonzalez30</a> y <a href="http://twitter.com/Rikh1975" target="_blank">@Rikh1975</a></p>
+      </div><!--/footer-texto -->
+	
+    </div><!--/container -->
+  </div><!--/footer -->
+</footer>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+<!-- Bootstrap core JavaScript -->
+<script src="static/libs/bootstrap/js/bootstrap.min.js"></script>
+<!-- Animate JS -->
+<script src="static/js/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+<!-- General configuration -->
+<script src="static/js/navBarColor.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,99 @@
+---
+title: Inicio
+layout: default
+imgs:
+  - "ad1"
+  - "ad2"
+  - "ad3"
+  - "ad4"
+cover_titles:
+  - "Mapa colaborativo"
+  - "En el Gran Córdoba hay 235 cortaderos de ladrillos"
+  - "Trabajo infantil, trata de personas y trabajo esclavo "
+  - "1.500 ladrillos por día "
+cover_subtitle:
+  - "Coordenadas de trabajo infantil en cortaderos de ladrillos"
+  - "Se distribuyen en la Capital, Cólon, Río Primero y Santa María"
+  - "En los últimos años se detectaron inhumanas condiciones de vida y trabajo precario"
+  - "Cada cortador produce un promedio 30 mil ladrillos por mes, con trabajo a destajo"
+---
+
+  
+<!-- Cover Corousel -->
+<!-- ============== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <header class="header-hidden">
+    <h2>Carousel de imagenes</h2>
+  </header>
+
+  <ol class="carousel-indicators">
+    {% for img in page.imgs %}
+    <li class="{% if forloop.index0 == 0 %} active {% endif %}" data-target="#myCarousel" data-slide-to="{{ forloop.index0 }}"></li>
+    {% endfor %}
+  </ol>
+
+  <div class="carousel-inner">
+    {% for img in page.imgs %}
+    <div class="item {{ img }} {% if forloop.index0 == 0 %} active {% endif %}">
+      <div class="container">
+	<div class="carousel-caption">
+	  <h3>{{ page.cover_titles[forloop.index0] }}</h3>
+	  <p class="hidden-xs hidden-sm"><b>{{ page.cover_subtitle[forloop.index0] }}</b></p>
+	  <p class="visible-sm"><b>{{ page.cover_subtitle[forloop.index0] }}</b></p>
+	  <p class="visible-xs"><b>{{ page.cover_y[forloop.index0] }}</b></p>
+	</div><!--/carousel-caption -->
+      </div><!--/container -->
+    </div><!--/item -->
+    {% endfor %}
+    
+  </div><!--/carousel-inner -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div><!--/myCarousel -->
+
+
+<section id="def" class="first_element">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+	<div class="box-def  wow bounceInLeft animated">
+	  <h2>Sobre el proyecto</h2>
+	  <p>Durante 2016, utilizando herramientas del periodismo de datos y el periodismo colaborativo, Chequeado realizó una investigación periodística respecto de las condiciones económicas y sociales que estimulan y favorecen el trabajo infantil en los cortaderos de ladrillos que rodean a la ciudad de Córdoba: un fenómeno que condiciona el presente y el futuro de miles de niñas, niños y adolescentes. Los chicos de los cortaderos son el último eslabón de una cadena de alto valor económico de la que no participan: el desarrollo inmobiliario y la obra pública. La investigación contó con el apoyo de expertos de diferentes disciplinas y consultó fuentes testimoniales, oficiales, académicas y documentales. Su propósito es reflejar dónde se ubican estos contextos y la presencia del Estado para garantizar los derechos básicos de los niños y sus familias.</p>
+	</div><!--/box-def -->
+      </div><!--/col-md-5-->
+    </div><!--/row -->
+  </div><!--/container -->
+</section><!--/ted -->
+
+
+<section id="colaboration" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+	<div class="box-def  wow bounceInLeft animated">
+	  <h2>Trabajo colaborativo</h2>
+	  <p>
+	    Este mapa comenzó a elaborarse en el Hack(at)ONG 2016, organizado por Open Data Córdoba, con el apoyo de Chequeado, entre otras ONG. El evento se desarrolló el sábado 24 de septiembre en Ciudad Universitaria.  Antes, los periodistas Cruz Gómez Paz, Lalo Freyre, Fernando Genesir y Julio Kloppenburg participaron de la campaña de recolección de datos: a través de un vídeo pidieron a la ciudadanía que indique la ubicación de los cortaderos. La cartografía fue desarrollada de manera colaborativa y aportará un mapa de datos abiertos que pretende sumar una herramienta científica y de análisis de datos para la sociedad civil y los organismos del Estado que se encargan de controlar la actividad ladrillera y su impacto socio-cultural, económico y ambiental.
+	  </p>
+	</div><!--/box-def -->
+      </div><!--/col-md-5-->
+    </div><!--/row -->
+  </div><!--/container -->
+</section><!--/ted -->
+
+
+<script>
+  /*****************************************
+  * Carousel options
+  ****************************************/
+$(function () {
+    $('#myCarousel').carousel({
+        interval:5000,
+        pause: "false"
+    });
+});
+</script>

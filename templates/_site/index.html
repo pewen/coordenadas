@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sitio Web oficial de la TEDxRíoCuarto. Nuestra primera edición fue realizada el día 9 de octubre del 2015 en el Teatro Municipal de la ciudad de Río Cuarto - Córdoba - Argentina.">
+  <meta name="keywords" content="Trabajo infantil, cortardeos, ladrillos, córdoba, chequeado">
+  <meta name="author" content="Franco N. Bellomo">
+  
+  <title>Inicio | Coordenadas de Trabajo Infantil</title>
+  
+  <link rel="canonical" href="/mapa_cortaderos//">
+  <link rel="alternate" type="application/rss+xml" title="Coordenadas de Trabajo Infantil" href="/mapa_cortaderos//feed.xml">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="static/libs/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="static/css/animate.css">
+  <!-- Bootstrap-slider CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/css/bootstrap-slider.min.css">
+  <!-- Personal CSS -->
+  <link rel="stylesheet" href="static/css/main.css">
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Personal JS Common Function -->
+  <script src="static/js/commonFunctions.js"></script>
+</head>
+
+
+  <body>
+    <header class="header-hidden">
+      <h1>Informe trabajo infantil en cortaderos de ladrillos </h1>
+    </header>
+
+    <!-- Navigation Bar -->
+<!-- ============== -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <header class="header-hidden">
+    <h2>Menú de Navegación</h2>
+  </header>
+
+  <div class="container-fluid" style="padding-bottom: 20px;">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse"
+	      data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- logo -->
+      <a class="navbar-brand logo-img">
+	<span>
+	  <img class="img-responsive" src="static/img/logo_chequeado.png"
+	       style="max-width: 400px;" />
+	</span>
+      </a>
+
+    </div><!--/ navbar-header -->
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+	
+        <li><a href="{{ serverUrl }}">INICIO</a></li>
+        <li><a href="{{ serverUrl + "mapa" }}">MAPA COLECTIVO</a></li>
+        <li><a href="{{ serverUrl + "analisis" }}">ANÁLISIS</a></li>
+	<li><a href="{{ serverUrl + "equipo" }}">EQUIPO</a></li>
+        <li><a href="#footer">CONTACTOS</a></li>
+
+	{% if not session["access_token"] %}
+	<li><a href="{{ serverUrl + "login" }}">LOGIN</a></li>
+	{% else %}
+	<li><a href="{{ serverUrl + "logout" }}">LOGOUT</a></li>
+	{% endif %}
+	
+      </ul>
+    </div><!--/ collapse navbar-collapse -->
+  </div><!--/ container-fluid -->
+</nav>
+
+
+    <!-- Cover Corousel -->
+<!-- ============== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <header class="header-hidden">
+    <h2>Carousel de imagenes</h2>
+  </header>
+
+  <ol class="carousel-indicators">
+    
+    <li class=" active " data-target="#myCarousel" data-slide-to="0"></li>
+    
+    <li class="" data-target="#myCarousel" data-slide-to="1"></li>
+    
+    <li class="" data-target="#myCarousel" data-slide-to="2"></li>
+    
+    <li class="" data-target="#myCarousel" data-slide-to="3"></li>
+    
+  </ol>
+
+  <div class="carousel-inner">
+    
+    <div class="item ad1  active ">
+      <div class="container">
+	<div class="carousel-caption">
+	  <h3>Mapa colaborativo</h3>
+	  <p class="hidden-xs hidden-sm"><b>Coordenadas de trabajo infantil en cortaderos de ladrillos</b></p>
+	  <p class="visible-sm"><b>Coordenadas de trabajo infantil en cortaderos de ladrillos</b></p>
+	  <p class="visible-xs"><b></b></p>
+	</div><!--/carousel-caption -->
+      </div><!--/container -->
+    </div><!--/item -->
+    
+    <div class="item ad2 ">
+      <div class="container">
+	<div class="carousel-caption">
+	  <h3>En el Gran Córdoba hay 235 cortaderos de ladrillos</h3>
+	  <p class="hidden-xs hidden-sm"><b>Se distribuyen en la Capital, Cólon, Río Primero y Santa María</b></p>
+	  <p class="visible-sm"><b>Se distribuyen en la Capital, Cólon, Río Primero y Santa María</b></p>
+	  <p class="visible-xs"><b></b></p>
+	</div><!--/carousel-caption -->
+      </div><!--/container -->
+    </div><!--/item -->
+    
+    <div class="item ad3 ">
+      <div class="container">
+	<div class="carousel-caption">
+	  <h3>Trabajo infantil, trata de personas y trabajo esclavo </h3>
+	  <p class="hidden-xs hidden-sm"><b>En los últimos años se detectaron inhumanas condiciones de vida y trabajo precario</b></p>
+	  <p class="visible-sm"><b>En los últimos años se detectaron inhumanas condiciones de vida y trabajo precario</b></p>
+	  <p class="visible-xs"><b></b></p>
+	</div><!--/carousel-caption -->
+      </div><!--/container -->
+    </div><!--/item -->
+    
+    <div class="item ad4 ">
+      <div class="container">
+	<div class="carousel-caption">
+	  <h3>1.500 ladrillos por día </h3>
+	  <p class="hidden-xs hidden-sm"><b>Cada cortador produce un promedio 30 mil ladrillos por mes, con trabajo a destajo</b></p>
+	  <p class="visible-sm"><b>Cada cortador produce un promedio 30 mil ladrillos por mes, con trabajo a destajo</b></p>
+	  <p class="visible-xs"><b></b></p>
+	</div><!--/carousel-caption -->
+      </div><!--/container -->
+    </div><!--/item -->
+    
+    
+  </div><!--/carousel-inner -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div><!--/myCarousel -->
+
+
+<section id="def" class="first_element">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+	<div class="box-def  wow bounceInLeft animated">
+	  <h2>Sobre el proyecto</h2>
+	  <p>Durante 2016, utilizando herramientas del periodismo de datos y el periodismo colaborativo, Chequeado realizó una investigación periodística respecto de las condiciones económicas y sociales que estimulan y favorecen el trabajo infantil en los cortaderos de ladrillos que rodean a la ciudad de Córdoba: un fenómeno que condiciona el presente y el futuro de miles de niñas, niños y adolescentes. Los chicos de los cortaderos son el último eslabón de una cadena de alto valor económico de la que no participan: el desarrollo inmobiliario y la obra pública. La investigación contó con el apoyo de expertos de diferentes disciplinas y consultó fuentes testimoniales, oficiales, académicas y documentales. Su propósito es reflejar dónde se ubican estos contextos y la presencia del Estado para garantizar los derechos básicos de los niños y sus familias.</p>
+	</div><!--/box-def -->
+      </div><!--/col-md-5-->
+    </div><!--/row -->
+  </div><!--/container -->
+</section><!--/ted -->
+
+
+<section id="colaboration" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+	<div class="box-def  wow bounceInLeft animated">
+	  <h2>Trabajo colaborativo</h2>
+	  <p>
+	    Este mapa comenzó a elaborarse en el Hack(at)ONG 2016, organizado por Open Data Córdoba, con el apoyo de Chequeado, entre otras ONG. El evento se desarrolló el sábado 24 de septiembre en Ciudad Universitaria.  Antes, los periodistas Cruz Gómez Paz, Lalo Freyre, Fernando Genesir y Julio Kloppenburg participaron de la campaña de recolección de datos: a través de un vídeo pidieron a la ciudadanía que indique la ubicación de los cortaderos. La cartografía fue desarrollada de manera colaborativa y aportará un mapa de datos abiertos que pretende sumar una herramienta científica y de análisis de datos para la sociedad civil y los organismos del Estado que se encargan de controlar la actividad ladrillera y su impacto socio-cultural, económico y ambiental.
+	  </p>
+	</div><!--/box-def -->
+      </div><!--/col-md-5-->
+    </div><!--/row -->
+  </div><!--/container -->
+</section><!--/ted -->
+
+
+<script>
+  /*****************************************
+  * Carousel options
+  ****************************************/
+$(function () {
+    $('#myCarousel').carousel({
+        interval:5000,
+        pause: "false"
+    });
+});
+</script>
+
+
+    
+    <!-- footer -->
+<!-- ====== -->
+<footer id="footer">
+  <h2 class="header-hidden">Footer</h2>
+  <div class="footer section">
+    <div class="container">
+      <h3 class="title text-center" id="contact">Contactanos</h3>
+
+      <ul class="social-links">
+ 	<li class="facebook">
+	  <a target="_blank" href="https://www.facebook.com/Chequeado"><i class="fa fa-facebook"></i></a>
+	</li>
+	
+	<li class="twitter">
+	  <a target="_blank" href="https://twitter.com/chequeado"><i class="fa fa-twitter"></i></a>
+	</li>
+      </ul>
+
+      <div class="footer-texto">
+	<h3 class="header-hidden">Licencia</h3>
+	<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+	<p> <strong><i class="fa fa-code" aria-hidden="true"></i></strong> Hecho con <i class="fa fa-heart" aria-hidden="true" style="color: red;"></i> por <a href="http://twitter.com/fnbellomo" target="_blank">@fnbellomo</a>, <a href="http://twitter.com/ucaomo" target="_blank">@ucaomo</a>, <a href="http://twitter.com/JMGonzalez30" target="_blank">@JMGonzalez30</a> y <a href="http://twitter.com/Rikh1975" target="_blank">@Rikh1975</a></p>
+      </div><!--/footer-texto -->
+	
+    </div><!--/container -->
+  </div><!--/footer -->
+</footer>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+<!-- Bootstrap core JavaScript -->
+<script src="static/libs/bootstrap/js/bootstrap.min.js"></script>
+<!-- Animate JS -->
+<script src="static/js/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+<!-- General configuration -->
+<script src="static/js/navBarColor.js"></script>
+
+
+  </body>
+</html>

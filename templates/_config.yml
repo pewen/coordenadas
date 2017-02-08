@@ -1,0 +1,24 @@
+# Site settings
+encoding: utf-8
+title: Coordenadas de Trabajo Infantil
+email: fnbellomo@gmail.com
+description: "Sitio Web oficial de la TEDxRíoCuarto. Nuestra primera edición fue realizada el día 9 de octubre del 2015 en el Teatro Municipal de la ciudad de Río Cuarto - Córdoba - Argentina."
+keywords: "Trabajo infantil, cortardeos, ladrillos, córdoba, chequeado"
+author: "Franco N. Bellomo"
+
+# Server
+baseurl: ""
+#url: "http://tedxriocuarto.com.ar/"
+#url: "http://127.0.0.1:4000/"
+url: "/mapa_cortaderos/"
+
+# Time zone
+timezone: America/Argentina/Cordoba
+
+# Build settings
+markdown: kramdown
+#permalink: pretty
+exclude: [.git, .gitignore]
+
+debug: false
+use_server: false

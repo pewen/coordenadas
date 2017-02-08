@@ -1,0 +1,252 @@
+---
+layout: default
+title: Análisis datos
+---
+
+<!-- Banner -->
+<!-- ====== -->
+<section id="banner_analysis">
+  <div class="container">
+    <div class="row">
+      <header>
+	<h2>Análisis de Datos</h2>
+      </header>
+    </div><!--/row -->
+  </div><!--/container -->
+</section><!--/#banner_analysis -->
+
+
+<!-- Herramientas -->
+<!-- ============ -->
+<section id="tools" class="first_element">
+  <div class="container">
+    <header>
+	<h2 class="title_team">Herramientas</h2>
+      </header>
+
+    <div class="row">
+      <div class="col-sm-1 col-sm-offset-2">
+	<a href="https://www.python.org/" target="_blank">
+	  <img src="{{ "/img/herramientas/Python-logo.svg.png" | prepend: site.baseurl }}" class="img-responsive" atr="python logo" />
+	</a>
+      </div><!--/col -->
+
+      <div class="col-sm-1">
+	<a href="http://www.numpy.org/" target="_blank">
+	  <img src="{{ "/img/herramientas/numpy-scipy_logo.png" | prepend: site.baseurl }}" class="img-responsive" atr="Numpy logo" />
+	</a>
+      </div><!--/col -->
+
+      <div class="col-sm-1">
+	<a href="https://git-scm.com/" target="_blank">
+	  <img src="{{ "/img/herramientas/git.sh-600x600.png" | prepend: site.baseurl }}" class="img-responsive" atr="Git logo" />
+	</a>
+      </div><!--/col -->
+
+      <div class="col-sm-1">
+	<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
+	  <img src="{{ "/img/herramientas/HTML5_Badge_512.png" | prepend: site.baseurl }}" class="img-responsive" atr="HTML5 logo" />
+	</a>
+      </div><!--/col -->
+
+      <div class="col-sm-1">
+	<a href="http://leafletjs.com/" target="_blank">
+	  <img src="{{ "/img/herramientas/leaflet_logo.png" | prepend: site.baseurl }}" class="img-responsive" atr="Leaflet logo" />
+	</a>
+      </div><!--/col -->
+      
+      <div class="col-sm-1">
+	<a href="https://d3js.org/" target="_blank">
+	  <img src="{{ "/img/herramientas/Logo_D3.svg.png" | prepend: site.baseurl }}" class="img-responsive" atr="D3 logo" />
+	</a>
+      </div><!--/col -->
+
+      <div class="col-sm-1">
+	<a href="https://developers.google.com/maps/" target="_blank">
+	  <img src="{{ "/img/herramientas/google_maps_logo-450x450.png" | prepend: site.baseurl }}" class="img-responsive" atr="Google maps logo" />
+	</a>
+      </div><!--/col -->
+    </div><!--/row -->
+
+  </div><!--/container -->
+</section>
+
+
+<!-- Fuentes -->
+<!-- ======= -->
+<section id="source" >
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+	<div class="box-def">
+	  <h2>Fuentes</h2>
+	  <p>Entre las diversas fuentes de información, podemos destacar a:</p>
+	  <ul style="list-style-type:disc; text-align: left;">
+	    <li>Gobierno de la Provincia de Córdoba</li>
+	    <li>Copreti</li>
+	    <li>Censo Nacional 2010</li>
+	    <li>Sindicato de Ladrilleros</li>
+	    <li>Migraciones Sede Córdoba</li>
+	    <li>Portal de Transparencia de la Ciudad de Córdoba</li>
+	  </ul>
+	</div><!--/box-def -->
+      </div><!--/col -->
+    </div><!--/row -->
+  </div><!--/container -->
+</section>
+
+
+<!-- Cortaderos por departamento -->
+<!-- =========================== -->
+<section id="">
+  <div class="container">
+    <header>
+      <h2 class="mapa_title">Distribución de Cortaderos por Departamento</h2>
+    </header>
+    
+    <div class="row">
+      <div class="col-sm-6">
+	<iframe src="https://pewen.github.io/mapa_cortaderos/mapa_cortaderos_por_departamentos_cordoba.html" width="500" height="400"></iframe>
+      </div><!--/col -->
+
+      <!-- Histogram -->
+      <div class="col-sm-6">
+	<div id="deptoPlot">
+	</div><!--/#deptoPlot -->
+      </div><!--/col -->
+
+    </div><!--/row -->
+  </div><!--/conatier -->
+</section>
+
+
+<!-- Análisis datos censo 2010 -->
+<!-- ========================= -->
+<section id="">
+  <div class="container-fluid">
+    <header>
+      <h2 class="mapa_title">Cortaderos y Censo 2010</h2>
+      <div class="box-def">
+		  <p>Combinamos la posición geolocalizada de cada cortadero de ladrillos con el Censo Nacional del año 2010, para obtener los datos del radio censal asociados a las zonas de los cortaderos identificados. </br>
+
+		    Los datos extraidos del censo (acceso al agua, gas, nivel educativo alcanzado, entre otros) están representados en porcentajes. Es decir, los gráficos nos muestran el nivel de acceso a los servicios de los cortaderos según radio censal, son datos aproximados ya que es imposible conocer los domicilios exactos de los mismos. </br>
+
+		    Realizamos todos los análisis cruzando los datos de geolocalización del mapa colectivo generado en el Hack(at)ONG que contienen las coordenadas geográficas de cada cortadero con los datos oficiales del Censo Nacional del año 2010. </br>
+
+		    Los márgenes de error son los mismos contemplados para el Censo Nacional.</p>
+  </div>
+  </header>
+  
+    <div class="row">
+      <div class="col-md-6">
+
+	<!-- Mapa estático -->
+	<div class="mapa_censo">
+	  <header>
+	    <h3 class="header-hidden">Mapa</h3>
+	  </header>
+	  <div id="map"></div>
+	  <div id="legend"><h3>Referencias</h3></div>
+	</div><!--/mapa_censo -->
+
+	<!-- Filter Slider -->
+	<div class="filter_slider">
+	  <form>
+	    <b id="filterLimBottom" style="padding-right: 20px;">200</b>
+	    <input id="filterSlider" type="text" class="span2" value=""
+		 data-slider-min="0" data-slider-max="2000"
+		 data-slider-step="5" data-slider-value="[200,2000]"/>
+	    <b id="filterLimTop" style="padding-left: 20px;">2000</b>
+	    <button type="button" onclick="resetFilterPlot()">
+	      Reiniciar los Filtros
+	    </button>
+	  </form>
+	  
+	  <header>
+	    <h3 class="header-hidden">Filtro por densidad</h3>
+	  </header>
+	  <p>Es posible filtrar los cortaderos mostrados en el mapa mediante la densidad demográfica. También se puede acceder haciendo click en alguna columna del gráfico del margen derecho.</p>
+	</div><!--/filter_slider -->
+	
+	<p id="nombre"></p>
+	<p id="densidad"></p>
+	
+      </div><!--/col -->
+
+      <!-- Plot barra datos censo -->
+      <div class="col-md-6">
+	<div>
+	  <!-- Nav tabs -->
+	  <ul class="nav nav-tabs" role="tablist">
+	    <li role="presentation" class="active">
+	      <a href="#aguaPlot" aria-controls="aguaPlot" role="tab" data-toggle="tab"
+		 onclick='redrawPlot("aguaPlot", "acceso_agua");'>Agua</a>
+	    </li>
+	    <li role="presentation">
+	      <a href="#gasPlot" aria-controls="gasPlot" role="tab" data-toggle="tab"
+		 onclick='redrawPlot("gasPlot", "acceso_gas");'>Gas</a>
+	    </li>
+	    <li role="presentation">
+	      <a href="#educacionPlot" aria-controls="educacionPlot" role="tab" data-toggle="tab"
+		 onclick='redrawPlot("educacionPlot", "educacion");'>Educación</a>
+	    </li>
+	    <li role="presentation">
+	      <a href="#bañoPlot" aria-controls="bañoPLot" role="tab" data-toggle="tab"
+		 onclick='redrawPlot("bañoPlot", "baño");'>Baño</a>
+	    </li>
+	    <li role="presentation">
+	      <a href="#hacinamientoPlot" aria-controls="hacinamientoPLot" role="tab" data-toggle="tab"
+		 onclick='redrawPlot("hacinamientoPlot", "hacinamiento");'>Hacinamiento</a>
+	    </li>
+	    <li role="presentation">
+	      <a href="#viviendaPlot" aria-controls="viviendaPLot" role="tab" data-toggle="tab"
+		 onclick='redrawPlot("viviendaPlot", "vivienda");'>Vivienda</a>
+	    </li>
+	  </ul>
+
+	  <!-- Tab panes -->
+	  <div class="tab-content">
+	    <!-- Plots -->
+	    <div role="tabpanel" class="tab-pane active" id="aguaPlot"></div>
+	    <div role="tabpanel" class="tab-pane" id="gasPlot"></div>
+	    <div role="tabpanel" class="tab-pane" id="educacionPlot"></div>
+	    <div role="tabpanel" class="tab-pane" id="bañoPlot"></div>
+	    <div role="tabpanel" class="tab-pane" id="hacinamientoPlot"></div>
+	    <div role="tabpanel" class="tab-pane" id="viviendaPlot"></div>
+	  </div>
+
+	</div>
+
+      </div><!--/col-md-5 -->
+    </div><!--/row -->    
+  </div><!--/container -->
+</section>
+
+<!-- Libraryes -->
+<!-- ========= -->
+
+<!-- Google Maps API -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDM12MMIbSoDFdhTO0yDpXQcZhYryxeFG4&callback=initMap" async defer></script>
+<!-- bootstrap-slider.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/bootstrap-slider.min.js"></script>
+<!-- D3.JS -->
+<script src="{{ "/libs/d3.v3.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+<script src="{{ "/libs/d3.tip.v0.6.3.js" | prepend: site.baseurl }}"></script>
+<!-- Dimple -->
+<script src="{{ "/libs/dimple.v2.1.2.min.js" | prepend: site.baseurl }}"></script>
+
+<!-- Personal Scripts -->
+<!-- ================ -->
+
+<!-- Histogram per depto  -->
+<script src="{{ "/js/analysis/deptoBarPlot.js" | prepend: site.baseurl }}"></script>
+<!-- Make the google map plot -->
+<script src="{{ "/js/analysis/static_map.js" | prepend: site.baseurl }}"></script>
+<!-- Resize the Map -->
+<script src="{{ "/js/resize.js" | prepend: site.baseurl }}"></script>
+<!-- Filter scroll bar -->
+<script src="{{ "/js/analysis/filter_slide.js" | prepend: site.baseurl }}"></script>
+<!-- Censo bar plots  -->
+<script src="{{ "/js/analysis/makeBarPlot.js" | prepend: site.baseurl }}"></script>
+<!-- CSS Bar plots styles -->
+<link rel="stylesheet" href="{{ "/css/censoPlots.css" | prepend: site.baseurl }}">

@@ -1,0 +1,2377 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Ladrilleros</name>
+		<description><![CDATA[Mapa de cortadero de ladrillos en el gran CBA: Montecristo, Colonia Caroya, Colonia Tirolesa, Guinazu, Malvinas, La Juanita, Los Cedros, Ciudad de CBA.]]></description>
+		<Folder>
+			<name>Cortaderos</name>
+			<Placemark>
+				<name>1</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9524943,-31.3270035,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>2</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9522207,-31.3259632,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9526445,-31.3242769,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>4</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9514053,-31.3199968,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>5</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9549458,-31.3200243,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>6</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9564264,-31.3217015,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>7</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9391422,-31.3117567,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>8</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.935827,-31.3106201,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>9</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9360201,-31.3093093,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>10</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9374149,-31.3098226,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9390779,-31.3097401,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>12</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9391583,-31.3061972,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>13</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9430046,-31.2985931,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>14</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.944335,-31.2985839,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>15</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.944217,-31.297713,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>16</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9223409,-31.3166697,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>17</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9254737,-31.3111151,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>18</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9282632,-31.3104551,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>19</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9382625,-31.2905621,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>20</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.939153,-31.2861887,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>21</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9393032,-31.285226,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>22</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9409125,-31.2829429,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>23</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9392173,-31.2824386,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>24</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9393997,-31.2793211,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>25</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9368194,-31.2788993,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>26</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9242291,-31.2789268,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>27</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.924154,-31.2776614,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>28</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9153993,-31.2777256,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>29</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9202595,-31.2692893,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>30</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8845754,-31.2448059,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>31</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8818073,-31.2528729,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>32</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8793612,-31.2562298,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>33</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9007545,-31.2645389,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>34</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8944459,-31.2870597,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>35</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8657355,-31.3283094,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>36</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8929868,-31.3303073,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>37</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9096808,-31.3286577,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>38</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8533115,-31.3264398,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>39</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8508439,-31.3275396,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>40</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8512731,-31.3301423,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>41</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.848033,-31.323562,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>42</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.844943,-31.3176046,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>43</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8465524,-31.2996015,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>44</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8384897,-31.3227922,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>45</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8375187,-31.3225355,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>46</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8274765,-31.3088051,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>47</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.827219,-31.3107117,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>48</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8103157,-31.3162022,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>49</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8089103,-31.3143874,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>50</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0312815,-31.3259495,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>51</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0329659,-31.3236033,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>52</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0776408,-31.367686,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>53</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0685427,-31.3915742,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>54</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.069224,-31.3920413,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>55</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0694708,-31.393067,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>56</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0696532,-31.3937768,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>57</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0850517,-31.3728731,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>58</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.085049,-31.372335,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>59</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0864384,-31.3624963,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>60</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0906039,-31.3637857,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>61</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0915453,-31.3657164,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>62</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0927523,-31.3654462,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>63</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0742397,-31.3491016,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>64</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1239089,-31.3549563,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>65</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1345492,-31.3349283,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>66</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1342247,-31.3342822,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>67</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1325295,-31.33543,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>68</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1393048,-31.3425822,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>69</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1486308,-31.3050858,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>70</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1529357,-31.2993173,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>71</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1537994,-31.2985014,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>72</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1545558,-31.2986046,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>73</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1590619,-31.3002066,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>74</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1585684,-31.3032684,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>75</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1639221,-31.3022967,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>76</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1574848,-31.2864271,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>77</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1717756,-31.2949031,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>78</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1627955,-31.2922398,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>79</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2010546,-31.2463446,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>80</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1404393,-31.1711777,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>81</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.081192,-31.2816868,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>82</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0531415,-31.272884,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>83</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0941525,-31.2608247,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>84</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.088552,-31.2300504,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>85</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.9228129,-31.1699315,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>86</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0692481,-31.0253837,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>87</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0776676,-31.0358734,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>88</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0790784,-31.0357171,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>200</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.4498456,-31.4877617,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>201</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.4487619,-31.4888824,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>202</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.4467074,-31.4898751,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>89</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0470824,-31.0023776,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>203</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.4462138,-31.489843,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>205</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.4463158,-31.4891157,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>204</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.4447547,-31.4900489,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>206</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.4434029,-31.4902685,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>207</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.4435906,-31.489532,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>208</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.4411016,-31.4838183,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>209</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.441123,-31.4827478,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>90</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0551639,-31.0029662,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>91</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0686983,-30.9944916,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>92</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1019604,-31.0090285,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>93</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.092814,-31.0086101,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>94</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0933371,-31.0089687,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>210</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2612916,-31.5004505,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>211</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2624208,-31.500311,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>212</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.264403,-31.5007752,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>95</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0499148,-31.0563462,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>213</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2591619,-31.5333905,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>96</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0524897,-31.0156882,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>97</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.053584,-31.015587,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>98</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0543056,-31.0150997,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>214</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.3891096,-31.6113336,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>215</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.3900859,-31.6114661,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>216</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.389933,-31.6120897,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>217</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.395225,-31.6134716,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>218</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.3952787,-31.6150843,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>219</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.3962497,-31.6152601,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>219</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.3950856,-31.6157467,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>220</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.3983445,-31.6169824,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>221</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.4010454,-31.6159842,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>222</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.4026923,-31.6159294,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>223</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.3981433,-31.6123524,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>224</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.4009864,-31.6217811,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>225</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.3964294,-31.6221877,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>226</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.396778,-31.621772,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>227</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.3973279,-31.6202623,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>99</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0983313,-31.0627406,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>100</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.091422,-31.008332,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>228</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.164834,-31.5356857,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>229</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1645122,-31.5371854,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>230</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1671193,-31.5361155,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>231</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1643834,-31.5378163,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>232</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1741949,-31.538493,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>233</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1741574,-31.5377889,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>234</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1722155,-31.5378438,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>235</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1514015,-31.5550972,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>236</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1485584,-31.5540001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>237</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1490519,-31.5548412,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>238</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1452861,-31.5390234,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>239</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.14343,-31.5312323,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>240</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1356623,-31.5316164,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>241</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1739857,-31.5102976,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>242</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0703237,-31.5381181,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>243</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.068532,-31.5368653,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>244</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0664291,-31.5330658,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>245</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0634358,-31.5323251,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>246</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0611827,-31.5334499,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>247</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0705866,-31.5324211,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>248</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0705249,-31.531685,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>249</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0712678,-31.5288387,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>250</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0866745,-31.5254526,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>251</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0978646,-31.5045623,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>101</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0423697,-31.0140836,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>252</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0640903,-31.5579267,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>255</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0629745,-31.5595037,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>256</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.0667456,-31.557689,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>257</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1945958,-31.49181,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>258</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1946602,-31.4933927,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>259</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1949069,-31.4944173,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>260</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1950035,-31.4953322,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>261</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1938984,-31.4935482,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>262</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1959262,-31.4965123,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>263</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1953576,-31.4977656,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>264</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1926217,-31.4965855,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>265</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1973639,-31.5007752,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>266</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2004859,-31.5040592,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>267</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2004913,-31.5062363,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>268</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2013121,-31.5069955,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>269</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1994667,-31.5066616,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>270</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2005235,-31.5074071,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>278</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.201929,-31.5076724,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>279</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1998047,-31.5077227,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>280</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2005718,-31.5082532,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>281</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2060649,-31.4956981,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>282</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2019719,-31.4959451,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>283</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1989303,-31.4921348,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>284</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1998476,-31.4920753,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>285</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2008185,-31.4912016,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>286</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2012531,-31.4897058,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>287</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.19981,-31.4886583,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>288</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2220885,-31.5111391,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>289</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2208064,-31.5114592,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>290</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.1983992,-31.4873042,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>291</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2014515,-31.4880041,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>292</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2087418,-31.4949113,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>293</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2137656,-31.4908471,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>295</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.222641,-31.5118159,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>294</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2212999,-31.5120903,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>296</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2229414,-31.5128175,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>297</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2225283,-31.5144501,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>298</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2236549,-31.5141986,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>299</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2258167,-31.517784,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>300</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2252266,-31.5178434,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>301</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2264766,-31.5201802,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>302</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2254788,-31.5202259,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>303</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2237031,-31.5201802,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>304</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.222995,-31.5201619,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>305</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2253232,-31.5237882,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>306</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.224261,-31.523651,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>307</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2242664,-31.5244375,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>308</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2250067,-31.5238156,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>309</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2239231,-31.5298103,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>310</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2235798,-31.5298286,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>400</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2288369,-31.324199,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>311</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2345661,-31.3306738,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>312</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2333537,-31.3306693,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>313</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2321467,-31.330573,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>401</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2321897,-31.330738,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>314</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2340618,-31.3317507,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>315</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2334342,-31.3314803,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>402</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2331767,-31.3308617,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>316</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2330587,-31.3320347,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>403</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2343837,-31.3309075,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>317</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2336756,-31.3322455,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>318</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2350703,-31.33269,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>404</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.233917,-31.3318377,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>405</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2350328,-31.3327862,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>319</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2300546,-31.328802,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>406</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2329514,-31.3320852,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>320</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.231672,-31.327968,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>407</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.229089,-31.3331024,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>321</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2288637,-31.3242838,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>322</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2280725,-31.3279176,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>408</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-64.2317605,-31.3277779,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>409</name>
+				<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>-63.8971227,-31.3698754,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Cortaderos2</name>
+			<Placemark>
+				<name>B°PIEDRAS BLANCAS - Ruta 36</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 10<br>unnamed (1): gran núcleo<br>lat: -32.3187802<br>lon: -64.2924641<br>CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 10.0<br>unnamed (1): gran núcleo<br>lat: -32.3187802<br>lon: -64.2924641]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: CORDOBA
+CANTIDAD APROXIMADA: 10
+unnamed (1): gran núcleo
+lat: -32.3187802
+lon: -64.2924641</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>CORDOBA</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>10.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-32.3187802</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.2924641</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.292464,-32.31878,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>B° NUESTRO HOGAR III - Ruta 36</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 8<br>unnamed (1): gran núcleo<br>lat: -34.4039879<br>lon: -64.3359309<br>CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 8.0<br>unnamed (1): gran núcleo<br>lat: -34.4039879<br>lon: -64.3359309]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: CORDOBA
+CANTIDAD APROXIMADA: 8
+unnamed (1): gran núcleo
+lat: -34.4039879
+lon: -64.3359309</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>CORDOBA</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>8.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-34.4039879</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.3359309</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.335931,-34.403988,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CAMINO 60 CUADRAS</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: BOUWER<br>CANTIDAD APROXIMADA: 12<br>unnamed (1): gran núcleo<br>lat: -32.9762259<br>lon: -63.3032161<br>CORDOBA/GRAN CORDOBA: BOUWER<br>CANTIDAD APROXIMADA: 12.0<br>unnamed (1): gran núcleo<br>lat: -32.9762259<br>lon: -63.3032161]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: BOUWER
+CANTIDAD APROXIMADA: 12
+unnamed (1): gran núcleo
+lat: -32.9762259
+lon: -63.3032161</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>BOUWER</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>12.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-32.9762259</value>
+					</Data>
+					<Data name='lon'>
+						<value>-63.3032161</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-63.303216,-32.976226,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CAMINO SAN CARLOS</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: BOUWER<br>CANTIDAD APROXIMADA: 7<br>unnamed (1): gran núcleo<br>lat: -33.4372187<br>lon: -64.858235<br>CORDOBA/GRAN CORDOBA: BOUWER<br>CANTIDAD APROXIMADA: 7.0<br>unnamed (1): gran núcleo<br>lat: -33.4372187<br>lon: -64.858235]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: BOUWER
+CANTIDAD APROXIMADA: 7
+unnamed (1): gran núcleo
+lat: -33.4372187
+lon: -64.858235</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>BOUWER</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>7.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-33.4372187</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.858235</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.858235,-33.437219,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>B° OB. ANGELELI - CAMINO SAN ANTONIO</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: CORDOBA <br>CANTIDAD APROXIMADA: 9<br>unnamed (1): gran núcleo<br>lat: -31.5568281<br>lon: -64.1478484<br>CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 9.0<br>unnamed (1): gran núcleo<br>lat: -31.5568281<br>lon: -64.1478484]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: CORDOBA 
+CANTIDAD APROXIMADA: 9
+unnamed (1): gran núcleo
+lat: -31.5568281
+lon: -64.1478484</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>CORDOBA</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>9.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-31.5568281</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.1478484</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.147848,-31.556828,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>B° GUIÑAZU - Ruta 9 Norte</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 13<br>unnamed (1): gran núcleo<br>lat: -31.3102922<br>lon: -64.1770798<br>CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 13.0<br>unnamed (1): gran núcleo<br>lat: -31.3102922<br>lon: -64.1770798]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: CORDOBA
+CANTIDAD APROXIMADA: 13
+unnamed (1): gran núcleo
+lat: -31.3102922
+lon: -64.1770798</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>CORDOBA</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>13.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-31.3102922</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.1770798</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.17708,-31.310292,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ruta 9 Norte</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: COLONIA CAROYA<br>CANTIDAD APROXIMADA: 11<br>unnamed (1): gran núcleo<br>lat: -31.0282632<br>lon: -64.1024377<br>CORDOBA/GRAN CORDOBA: COLONIA CAROYA<br>CANTIDAD APROXIMADA: 11.0<br>unnamed (1): gran núcleo<br>lat: -31.0282632<br>lon: -64.1024377]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: COLONIA CAROYA
+CANTIDAD APROXIMADA: 11
+unnamed (1): gran núcleo
+lat: -31.0282632
+lon: -64.1024377</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>COLONIA CAROYA</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>11.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-31.0282632</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.1024377</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.102438,-31.028263,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ruta 19</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: MALVINAS ARGENTINAS<br>CANTIDAD APROXIMADA: 9<br>unnamed (1): gran núcleo<br>lat: -32.6016823<br>lon: -63.6523673<br>CORDOBA/GRAN CORDOBA: MALVINAS ARGENTINAS<br>CANTIDAD APROXIMADA: 9.0<br>unnamed (1): gran núcleo<br>lat: -32.6016823<br>lon: -63.6523673]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: MALVINAS ARGENTINAS
+CANTIDAD APROXIMADA: 9
+unnamed (1): gran núcleo
+lat: -32.6016823
+lon: -63.6523673</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>MALVINAS ARGENTINAS</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>9.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-32.6016823</value>
+					</Data>
+					<Data name='lon'>
+						<value>-63.6523673</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-63.652367,-32.601682,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ruta 19</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: MONTECRISTO<br>CANTIDAD APROXIMADA: 20<br>unnamed (1): gran núcleo<br>lat: -33.0279941<br>lon: -64.4864221<br>CORDOBA/GRAN CORDOBA: MONTECRISTO<br>CANTIDAD APROXIMADA: 20.0<br>unnamed (1): gran núcleo<br>lat: -33.0279941<br>lon: -64.4864221]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: MONTECRISTO
+CANTIDAD APROXIMADA: 20
+unnamed (1): gran núcleo
+lat: -33.0279941
+lon: -64.4864221</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>MONTECRISTO</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>20.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-33.0279941</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.4864221</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.486422,-33.027994,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>B° EL GATEADO - Camino a Colonia Tirolesa</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 7<br>unnamed (1): gran núcleo<br>lat: -32.5851255<br>lon: -64.2444118<br>CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 7.0<br>unnamed (1): gran núcleo<br>lat: -32.5851255<br>lon: -64.2444118]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: CORDOBA
+CANTIDAD APROXIMADA: 7
+unnamed (1): gran núcleo
+lat: -32.5851255
+lon: -64.2444118</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>CORDOBA</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>7.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-32.5851255</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.2444118</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.244412,-32.585125,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ruta 9 Norte</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: COLONIA TIROLESA<br>CANTIDAD APROXIMADA: 13<br>unnamed (1): gran núcleo<br>lat: -30.9538231<br>lon: -64.0790809<br>CORDOBA/GRAN CORDOBA: COLONIA TIROLESA<br>CANTIDAD APROXIMADA: 13.0<br>unnamed (1): gran núcleo<br>lat: -30.9538231<br>lon: -64.0790809]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: COLONIA TIROLESA
+CANTIDAD APROXIMADA: 13
+unnamed (1): gran núcleo
+lat: -30.9538231
+lon: -64.0790809</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>COLONIA TIROLESA</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>13.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-30.9538231</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.0790809</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.079081,-30.953823,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ruta 9 Sur</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: RIO SEGUNDO<br>CANTIDAD APROXIMADA: 5<br>unnamed (1): gran núcleo<br>lat: -32.4942684<br>lon: -63.3093688<br>CORDOBA/GRAN CORDOBA: RIO SEGUNDO<br>CANTIDAD APROXIMADA: 5.0<br>unnamed (1): gran núcleo<br>lat: -32.4942684<br>lon: -63.3093688]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: RIO SEGUNDO
+CANTIDAD APROXIMADA: 5
+unnamed (1): gran núcleo
+lat: -32.4942684
+lon: -63.3093688</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>RIO SEGUNDO</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>5.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-32.4942684</value>
+					</Data>
+					<Data name='lon'>
+						<value>-63.3093688</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-63.309369,-32.494268,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CAMINO A FALDA DEL CARMEN</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: LAS JUANITAS<br>CANTIDAD APROXIMADA: 8<br>unnamed (1): gran núcleo<br>lat: -31.4901182<br>lon: -64.4465411<br>CORDOBA/GRAN CORDOBA: LAS JUANITAS<br>CANTIDAD APROXIMADA: 8.0<br>unnamed (1): gran núcleo<br>lat: -31.4901182<br>lon: -64.4465411]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: LAS JUANITAS
+CANTIDAD APROXIMADA: 8
+unnamed (1): gran núcleo
+lat: -31.4901182
+lon: -64.4465411</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>LAS JUANITAS</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>8.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-31.4901182</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.4465411</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.446541,-31.490118,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bº LA CARBONADA - Ruta 9 Sur</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 3<br>unnamed (1): gran núcleo<br>lat: -31.489742<br>lon: -64.0831729<br>CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 3.0<br>unnamed (1): gran núcleo<br>lat: -31.489742<br>lon: -64.0831729]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: CORDOBA
+CANTIDAD APROXIMADA: 3
+unnamed (1): gran núcleo
+lat: -31.489742
+lon: -64.0831729</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>CORDOBA</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>3.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-31.489742</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.0831729</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.083173,-31.489742,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Peaje - Ruta 36</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: DESPEÑADEROS<br>CANTIDAD APROXIMADA: 5<br>unnamed (1): gran núcleo<br>lat: -31.8132521<br>lon: -64.2963527<br>CORDOBA/GRAN CORDOBA: DESPEÑADEROS<br>CANTIDAD APROXIMADA: 5.0<br>unnamed (1): gran núcleo<br>lat: -31.8132521<br>lon: -64.2963527]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: DESPEÑADEROS
+CANTIDAD APROXIMADA: 5
+unnamed (1): gran núcleo
+lat: -31.8132521
+lon: -64.2963527</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>DESPEÑADEROS</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>5.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-31.8132521</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.2963527</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.296353,-31.813252,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Frente a Mocona - Ruta 5</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 3<br>unnamed (1): gran núcleo<br>lat: -31.5004328<br>lon: -64.262397<br>CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 3.0<br>unnamed (1): gran núcleo<br>lat: -31.5004328<br>lon: -64.262397]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: CORDOBA
+CANTIDAD APROXIMADA: 3
+unnamed (1): gran núcleo
+lat: -31.5004328
+lon: -64.262397</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>CORDOBA</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>3.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-31.5004328</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.262397</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.262397,-31.500433,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bº LOS CEDROS - Ruta 5</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: LOS CEDROS RUTA 5<br>CANTIDAD APROXIMADA: 1<br>unnamed (1): gran núcleo<br>lat: -32.6583983<br>lon: -64.970753<br>CORDOBA/GRAN CORDOBA: LOS CEDROS RUTA 5<br>CANTIDAD APROXIMADA: 1.0<br>unnamed (1): gran núcleo<br>lat: -32.6583983<br>lon: -64.970753]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: LOS CEDROS RUTA 5
+CANTIDAD APROXIMADA: 1
+unnamed (1): gran núcleo
+lat: -32.6583983
+lon: -64.970753</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>LOS CEDROS RUTA 5</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>1.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-32.6583983</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.970753</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.970753,-32.658398,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ruta 5</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: VILLA DEL PRADO<br>CANTIDAD APROXIMADA: 12<br>unnamed (1): gran núcleo<br>lat: -31.6211317<br>lon: -64.3931993<br>CORDOBA/GRAN CORDOBA: VILLA DEL PRADO<br>CANTIDAD APROXIMADA: 12.0<br>unnamed (1): gran núcleo<br>lat: -31.6211317<br>lon: -64.3931993]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: VILLA DEL PRADO
+CANTIDAD APROXIMADA: 12
+unnamed (1): gran núcleo
+lat: -31.6211317
+lon: -64.3931993</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>VILLA DEL PRADO</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>12.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>gran núcleo</value>
+					</Data>
+					<Data name='lat'>
+						<value>-31.6211317</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.3931993</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.393199,-31.621132,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Atrás del Aeropuerto</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 2<br>unnamed (1): pequeños<br>lat: -35.4191252<br>lon: -64.2480402<br>CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 2.0<br>unnamed (1): pequeños<br>lat: -35.4191252<br>lon: -64.2480402]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: CORDOBA
+CANTIDAD APROXIMADA: 2
+unnamed (1): pequeños
+lat: -35.4191252
+lon: -64.2480402</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>CORDOBA</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>2.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>pequeños</value>
+					</Data>
+					<Data name='lat'>
+						<value>-35.4191252</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.2480402</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.24804,-35.419125,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bº LOS BOULEVARES</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 2<br>unnamed (1): pequeños<br>lat: -34.3018992<br>lon: -63.7442581<br>CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 2.0<br>unnamed (1): pequeños<br>lat: -34.3018992<br>lon: -63.7442581]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: CORDOBA
+CANTIDAD APROXIMADA: 2
+unnamed (1): pequeños
+lat: -34.3018992
+lon: -63.7442581</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>CORDOBA</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>2.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>pequeños</value>
+					</Data>
+					<Data name='lat'>
+						<value>-34.3018992</value>
+					</Data>
+					<Data name='lon'>
+						<value>-63.7442581</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-63.744258,-34.301899,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bº SACHI</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 2<br>unnamed (1): pequeños<br>lat: -33.4171402<br>lon: -63.9623958<br>CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 2.0<br>unnamed (1): pequeños<br>lat: -33.4171402<br>lon: -63.9623958]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: CORDOBA
+CANTIDAD APROXIMADA: 2
+unnamed (1): pequeños
+lat: -33.4171402
+lon: -63.9623958</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>CORDOBA</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>2.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>pequeños</value>
+					</Data>
+					<Data name='lat'>
+						<value>-33.4171402</value>
+					</Data>
+					<Data name='lon'>
+						<value>-63.9623958</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-63.962396,-33.41714,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bº GENERAL PAZ</name>
+				<description><![CDATA[descripción: CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 2<br>unnamed (1): pequeños<br>lat: -34.5143377<br>lon: -64.7783466<br>CORDOBA/GRAN CORDOBA: CORDOBA<br>CANTIDAD APROXIMADA: 2.0<br>unnamed (1): pequeños<br>lat: -34.5143377<br>lon: -64.7783466]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='descripción'>
+						<value>CORDOBA/GRAN CORDOBA: CORDOBA
+CANTIDAD APROXIMADA: 2
+unnamed (1): pequeños
+lat: -34.5143377
+lon: -64.7783466</value>
+					</Data>
+					<Data name='CORDOBA/GRAN CORDOBA'>
+						<value>CORDOBA</value>
+					</Data>
+					<Data name='CANTIDAD APROXIMADA'>
+						<value>2.0</value>
+					</Data>
+					<Data name='unnamed (1)'>
+						<value>pequeños</value>
+					</Data>
+					<Data name='lat'>
+						<value>-34.5143377</value>
+					</Data>
+					<Data name='lon'>
+						<value>-64.7783466</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>-64.778347,-34.514338,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-1899-0288D1-nodesc-normal'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1899-0288D1-nodesc-highlight'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1899-0288D1-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

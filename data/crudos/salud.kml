@@ -1,0 +1,941 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Mapa Ladrillero</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>Salud</name>
+			<Placemark>
+				<name>22</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   22]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.213899,-31.412584,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>23</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   23]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.223502,-31.437566,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>24</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   24]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.207786,-31.423653,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>26</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   26]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.23226,-31.414331,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>27</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   27]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.156123,-31.443781,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>28</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   28]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.250827,-31.410704,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>29</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   29]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.227518,-31.3962,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>30</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   30]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.206901,-31.397217,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>31</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   31]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.275099,-31.344154,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>32</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   32]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.149892,-31.412266,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>33</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   33]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.259832,-31.336996,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>34</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   34]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.271249,-31.328686,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>35</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   35]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.170319,-31.44608,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>37</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   37]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.140681,-31.442912,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>38</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   38]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.147755,-31.439399,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>39</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   39]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.210653,-31.445321,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>40</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   40]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.202281,-31.451247,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>41</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   41]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.214943,-31.469594,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>42</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   42]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.210454,-31.484445,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>43</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   43]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.195023,-31.423794,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>44</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   44]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.208542,-31.434592,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>45</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   45]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.205096,-31.463744,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>46</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   46]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.22937,-31.478971,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>47</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   47]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.143262,-31.481113,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>48</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   48]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.150432,-31.375267,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>49</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   49]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.248745,-31.379632,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>50</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   50]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.248271,-31.435947,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>51</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   51]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.176746,-31.313699,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>52</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   52]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.241382,-31.391911,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>53</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   53]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.193573,-31.476363,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>54</name>
+				<description><![CDATA[T    <br>       <br>   NRO_NUEVO   54]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.217419,-31.344239,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>55</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   55]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.240457,-31.405395,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>56</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   56]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.124274,-31.432174,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>01</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   01]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.148977,-31.364994,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>02</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   02]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.099062,-31.462308,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>03</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   03]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.140835,-31.392223,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>04</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   04]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.14312,-31.382094,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>05</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   05]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.130523,-31.38671,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>06</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   06]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.297509,-31.328234,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>07</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   07]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.154844,-31.400323,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>08</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   08]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.129877,-31.42774,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>09</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   09]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.214045,-31.404858,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>10</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   10]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.115241,-31.424821,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>11</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   11]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.164298,-31.439884,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>12</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   12]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.108546,-31.461254,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>13</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   13]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.187019,-31.372854,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>14</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   14]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.163623,-31.386973,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>15</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   15]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.17868,-31.339332,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>16</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   16]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.205005,-31.375095,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>17</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   17]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.175116,-31.366377,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>18</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   18]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.132035,-31.3742,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>19</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   19]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.194711,-31.375781,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>20</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   20]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.209641,-31.377583,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>21</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   21]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.195278,-31.363655,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>57</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   57]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.246039,-31.333794,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>65</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   65]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.246645,-31.421133,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>66</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   66]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.256249,-31.320521,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>67</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   67]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.263531,-31.314622,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>68</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   68]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.147241,-31.466094,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>76</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   76]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.263059,-31.421591,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>70</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   70]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.245595,-31.449049,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>71</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   71]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.132983,-31.452237,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>74</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   74]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.105464,-31.3549,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>75</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   75]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.160116,-31.464194,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>78</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   78]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.161218,-31.358182,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>79</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   79]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.198739,-31.49996,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>80</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   80]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.122772,-31.415523,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>58</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   58]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.131531,-31.414726,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>81</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   81]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.111198,-31.454212,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>82</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   82]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.283057,-31.31565,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>83</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   83]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.236788,-31.43061,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>61</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   61]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.248138,-31.323999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>84</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   84]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.088289,-31.402747,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>85</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   85]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.134929,-31.367224,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>86</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   86]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.21674,-31.48133,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>59</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   59]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.232945,-31.467755,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DEM Centro</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   DEM Centro]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.175563,-31.412119,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DEM (O)</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   DEM (O)]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.210078,-31.407978,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DEM (N)</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   DEM (N)]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.180834,-31.379462,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DAPS</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   DAPS]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.175563,-31.412119,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hogar</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   Hogar]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.136815,-31.417361,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SOM</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   SOM]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.179886,-31.40666,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>H.Urg</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   H.Urg]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.176152,-31.412997,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>H.Infantil</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   H.Infantil]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.180816,-31.380255,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>69</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   69]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.060649,-31.369148,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>72</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   72]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.058155,-31.381583,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>87</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   87]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.263787,-31.454629,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>88</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   88]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.063697,-31.409802,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>77</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   77]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.271102,-31.384838,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>73</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   73]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.246867,-31.483454,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>98</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   98]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.108254,-31.395187,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>89</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   89]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.195073,-31.512324,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>90</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   90]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.082079,-31.466119,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>91</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   91]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.113211,-31.4393,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>92</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   92]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.230987,-31.332424,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>93</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   93]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.250338,-31.4276,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>94</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   94]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.151873,-31.356012,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>63</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   63]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.257417,-31.414797,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>95</name>
+				<description><![CDATA[M    <br>       <br>   NRO_NUEVO   95]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.147995,-31.453375,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>60</name>
+				<description><![CDATA[NRO_NUEVO   60]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.190225,-31.37184,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>96</name>
+				<description><![CDATA[NRO_NUEVO   96]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.129192,-31.442386,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>97</name>
+				<description><![CDATA[NRO_NUEVO   97]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.234095,-31.488298,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>25</name>
+				<description><![CDATA[NRO_NUEVO   25]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.196481,-31.395302,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>62</name>
+				<description><![CDATA[NRO_NUEVO   62]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.269734,-31.31351,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>64</name>
+				<description><![CDATA[NRO_NUEVO   64]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.165257,-31.452677,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Med.Prev.</name>
+				<description><![CDATA[NRO_NUEVO   Med.Prev.]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.187222,-31.411175,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>H.Prin.Ast</name>
+				<description><![CDATA[NRO_NUEVO   H.Prin.Ast]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.21935,-31.469147,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+
+<Style id='icon-1899-0288D1-nodesc-normal'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1899-0288D1-nodesc-highlight'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1899-0288D1-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1899-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1899-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1899-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1899-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Mapa Ladrillero</name>
+		<description><![CDATA[]]></description>
+			<Folder>
+			<name>Jardines Maternales</name>
+			<Placemark>
+				<name>ARCO IRIS</name>
+				<description><![CDATA[Centro Infantil ARCO IRIS    <br>       <br>   DEPENDENCI   Centro Infantil ARCO IRIS]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.21151,-31.481543,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AYUDA MUTUA</name>
+				<description><![CDATA[Centro Infantil AYUDA MUTUA    <br>       <br>   DEPENDENCI   Centro Infantil AYUDA MUTUA]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.181634,-31.425071,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BICHITO DE LUZ</name>
+				<description><![CDATA[Centro Infantil BICHITO DE LUZ    <br>       <br>   DEPENDENCI   Centro Infantil BICHITO DE LUZ]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.180601,-31.337708,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CAPERUCITA ROJA</name>
+				<description><![CDATA[Centro Infantil CAPERUCITA ROJA    <br>       <br>   DEPENDENCI   Centro Infantil CAPERUCITA ROJA]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.16684,-31.386807,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CASITA DEL HORNERO</name>
+				<description><![CDATA[Centro Infantil CASITA DEL HORNERO    <br>       <br>   DEPENDENCI   Centro Infantil CASITA DEL HORNERO]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.148272,-31.377366,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CLEMENTE</name>
+				<description><![CDATA[Centro Infantil CLEMENTE    <br>       <br>   DEPENDENCI   Centro Infantil CLEMENTE]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.19738,-31.447853,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BARRILETE</name>
+				<description><![CDATA[Centro Infantil BARRILETE    <br>       <br>   DEPENDENCI   Centro Infantil BARRILETE]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.265597,-31.322825,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>EL PRINCIPITO</name>
+				<description><![CDATA[Centro Infantil EL PRINCIPITO    <br>       <br>   DEPENDENCI   Centro Infantil EL PRINCIPITO]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.182035,-31.367054,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>FRUTILLAS</name>
+				<description><![CDATA[Centro Infantil FRUTILLAS    <br>       <br>   DEPENDENCI   Centro Infantil FRUTILLAS]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.229832,-31.355206,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>HIJITUS</name>
+				<description><![CDATA[Centro Infantil HIJITUS    <br>       <br>   DEPENDENCI   Centro Infantil HIJITUS]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.184769,-31.376365,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>HORMIGUITA VIAJERA</name>
+				<description><![CDATA[Centro Infantil HORMIGUITA VIAJERA    <br>       <br>   DEPENDENCI   Centro Infantil HORMIGUITA VIAJERA]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.234782,-31.391959,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>JEROMITO</name>
+				<description><![CDATA[Centro Infantil JEROMITO    <br>       <br>   DEPENDENCI   Centro Infantil JEROMITO]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.195136,-31.421735,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>LARGUIRUCHO</name>
+				<description><![CDATA[Centro Infantil LARGUIRUCHO    <br>       <br>   DEPENDENCI   Centro Infantil LARGUIRUCHO]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.211424,-31.442288,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MAFALDA</name>
+				<description><![CDATA[Centro Infantil MAFALDA    <br>       <br>   DEPENDENCI   Centro Infantil MAFALDA]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.251334,-31.407856,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PETETE</name>
+				<description><![CDATA[Centro Infantil PETETE    <br>       <br>   DEPENDENCI   Centro Infantil PETETE]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.213801,-31.360356,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PORTAL DE BELEN</name>
+				<description><![CDATA[Centro Infantil PORTAL DE BELEN    <br>       <br>   DEPENDENCI   Centro Infantil PORTAL DE BELEN]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.131954,-31.414879,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>RAYITO DE SOL</name>
+				<description><![CDATA[Centro Infantil RAYITO DE SOL    <br>       <br>   DEPENDENCI   Centro Infantil RAYITO DE SOL]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.232822,-31.422764,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TRAPITO</name>
+				<description><![CDATA[Centro Infantil TRAPITO    <br>       <br>   DEPENDENCI   Centro Infantil TRAPITO]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.207668,-31.471861,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>LOS 7 CABRITOS</name>
+				<description><![CDATA[Centro Infantil LOS 7 CABRITOS    <br>       <br>   DEPENDENCI   Centro Infantil LOS 7 CABRITOS]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.196373,-31.419037,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PRIMO GARCIA ELORRIO</name>
+				<description><![CDATA[Centro Infantil PRIMO GARCIA ELORRIO    <br>       <br>   DEPENDENCI   Centro Infantil PRIMO GARCIA ELORRIO]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.245308,-31.428394,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>JULIA SAURY</name>
+				<description><![CDATA[Centro Infantil JULIA SAURY    <br>       <br>   DEPENDENCI   Centro Infantil JULIA SAURY]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.099826,-31.46207,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR. MIGUEL OLIVER</name>
+				<description><![CDATA[Centro Infantil DR. MIGUEL OLIVER    <br>       <br>   DEPENDENCI   Centro Infantil DR. MIGUEL OLIVER]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.08463,-31.464274,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR.JUAN FELIX CAFERATA</name>
+				<description><![CDATA[Centro Infantil DR.JUAN FELIX CAFERATA    <br>       <br>   DEPENDENCI   Centro Infantil DR.JUAN FELIX CAFERATA]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.171975,-31.401001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CASIHUAHUITAS</name>
+				<description><![CDATA[Centro Infantil CASIHUAHUITAS    <br>       <br>   DEPENDENCI   Centro Infantil CASIHUAHUITAS]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.142807,-31.463064,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IGNACIO PALACIOS HIDALGO</name>
+				<description><![CDATA[Centro Infantil IGNACIO PALACIOS HIDALGO    <br>       <br>   DEPENDENCI   Centro Infantil IGNACIO PALACIOS HIDALGO]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.10379,-31.460374,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TRINIDAD MORENO</name>
+				<description><![CDATA[Centro Infantil TRINIDAD MORENO    <br>       <br>   DEPENDENCI   Centro Infantil TRINIDAD MORENO]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.145502,-31.433818,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PADRE ANTONIO MARTINEZ</name>
+				<description><![CDATA[Centro Infantil PADRE ANTONIO MARTINEZ    <br>       <br>   DEPENDENCI   Centro Infantil PADRE ANTONIO MARTINEZ]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.08949,-31.464998,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IGNACIO GARZON</name>
+				<description><![CDATA[Centro Infantil IGNACIO GARZON    <br>       <br>   DEPENDENCI   Centro Infantil IGNACIO GARZON]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.182695,-31.430408,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR. LUIS LEZAMA</name>
+				<description><![CDATA[Centro Infantil DR. LUIS LEZAMA    <br>       <br>   DEPENDENCI   Centro Infantil DR. LUIS LEZAMA]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.24784,-31.448057,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>COLORIN COLORADO</name>
+				<description><![CDATA[Centro Infantil COLORIN COLORADO    <br>       <br>   DEPENDENCI   Centro Infantil COLORIN COLORADO]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.271461,-31.328803,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>RUIDITOS</name>
+				<description><![CDATA[Centro Infantil RUIDITOS    <br>       <br>   DEPENDENCI   Centro Infantil RUIDITOS]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.140318,-31.372028,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SUEÑOS DE COLORES</name>
+				<description><![CDATA[Centro Infantil SUEÑOS DE COLORES    <br>       <br>   DEPENDENCI   Centro Infantil SUEÑOS DE COLORES]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.154696,-31.401229,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TERNURITAS</name>
+				<description><![CDATA[Centro Infantil TERNURITAS    <br>       <br>   DEPENDENCI   Centro Infantil TERNURITAS]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.138961,-31.448311,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CAPULLITOS</name>
+				<description><![CDATA[Centro Infantil CAPULLITOS    <br>       <br>   DEPENDENCI   Centro Infantil CAPULLITOS]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.269441,-31.316764,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TRAVESURAS</name>
+				<description><![CDATA[Centro Infantil TRAVESURAS    <br>       <br>   DEPENDENCI   Centro Infantil TRAVESURAS]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.283424,-31.315947,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>GARABATOS</name>
+				<description><![CDATA[Centro Infantil GARABATOS    <br>       <br>   DEPENDENCI   Centro Infantil GARABATOS]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.246142,-31.33398,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+				<Style id='icon-1899-0288D1-nodesc-normal'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1899-0288D1-nodesc-highlight'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1899-0288D1-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1899-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1899-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1899-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1899-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

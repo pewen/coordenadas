@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Mapa Ladrillero</name>
+		<description><![CDATA[]]></description>
+		<Folder>	
+			<name>Escuelas</name>
+			<Placemark>
+				<name>YAMAHIRIA A LIBIA</name>
+				<description><![CDATA[YAMAHIRIA A LIBIA    <br>       <br>   nombre   YAMAHIRIA A LIBIA    <br>   ESC_NUMERO   1]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.234952,-31.48865,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>PEDRO CARANDE CARRO</name>
+				<description><![CDATA[PEDRO CARANDE CARRO    <br>       <br>   nombre   PEDRO CARANDE CARRO    <br>   ESC_NUMERO   2]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.170602,-31.371072,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ANGEL GASTALDI</name>
+				<description><![CDATA[ANGEL GASTALDI    <br>       <br>   nombre   ANGEL GASTALDI    <br>   ESC_NUMERO   4]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.115849,-31.423984,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>JULIO GONZALEZ</name>
+				<description><![CDATA[JULIO GONZALEZ    <br>       <br>   nombre   JULIO GONZALEZ    <br>   ESC_NUMERO   5]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.060989,-31.368509,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>AZOR GRIMAUT</name>
+				<description><![CDATA[AZOR GRIMAUT    <br>       <br>   nombre   AZOR GRIMAUT    <br>   ESC_NUMERO   3]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.215707,-31.485004,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>GOB JOSE A CEBALLOS</name>
+				<description><![CDATA[GOB JOSE A CEBALLOS    <br>       <br>   nombre   GOB JOSE A CEBALLOS    <br>   ESC_NUMERO   6]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.081958,-31.465316,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR ARTURO U ILLIA</name>
+				<description><![CDATA[DR ARTURO U ILLIA    <br>       <br>   nombre   DR ARTURO U ILLIA    <br>   ESC_NUMERO   7]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.139093,-31.447914,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>GOB AMADEO SABATTINI</name>
+				<description><![CDATA[GOB AMADEO SABATTINI    <br>       <br>   nombre   GOB AMADEO SABATTINI    <br>   ESC_NUMERO   8]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.133364,-31.456595,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>GOB BRIG J S MARTIN</name>
+				<description><![CDATA[GOB BRIG J S MARTIN    <br>       <br>   nombre   GOB BRIG J S MARTIN    <br>   ESC_NUMERO   9]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.156012,-31.444841,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR CARLOS BECERRA</name>
+				<description><![CDATA[DR CARLOS BECERRA    <br>       <br>   nombre   DR CARLOS BECERRA    <br>   ESC_NUMERO   10]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.23212,-31.421362,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ESCR OSCAR S LOPEZ</name>
+				<description><![CDATA[ESCR OSCAR S LOPEZ    <br>       <br>   nombre   ESCR OSCAR S LOPEZ    <br>   ESC_NUMERO   11]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.09823,-31.462114,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>GOB JUSTO P MOLINA</name>
+				<description><![CDATA[GOB JUSTO P MOLINA    <br>       <br>   nombre   GOB JUSTO P MOLINA    <br>   ESC_NUMERO   12]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.243751,-31.401404,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ING JUAN MASJOAN</name>
+				<description><![CDATA[ING JUAN MASJOAN    <br>       <br>   nombre   ING JUAN MASJOAN    <br>   ESC_NUMERO   13]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.220182,-31.339711,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR DONATO L FRIAS</name>
+				<description><![CDATA[DR DONATO L FRIAS    <br>       <br>   nombre   DR DONATO L FRIAS    <br>   ESC_NUMERO   15]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.135315,-31.367622,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR ERNESTO M ROMERO</name>
+				<description><![CDATA[DR ERNESTO M ROMERO    <br>       <br>   nombre   DR ERNESTO M ROMERO    <br>   ESC_NUMERO   16]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.162672,-31.449854,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR RAUL V MARTINEZ</name>
+				<description><![CDATA[DR RAUL V MARTINEZ    <br>       <br>   nombre   DR RAUL V MARTINEZ    <br>   ESC_NUMERO   17]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.268463,-31.340595,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR S H DEL CASTILLO</name>
+				<description><![CDATA[DR S H DEL CASTILLO    <br>       <br>   nombre   DR S H DEL CASTILLO    <br>   ESC_NUMERO   18]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.2224,-31.439471,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>COOPER ARGENTINO</name>
+				<description><![CDATA[COOPER ARGENTINO    <br>       <br>   nombre   COOPER ARGENTINO    <br>   ESC_NUMERO   19]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.121539,-31.418758,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ARSENIO MURUGARREN</name>
+				<description><![CDATA[ARSENIO MURUGARREN    <br>       <br>   nombre   ARSENIO MURUGARREN    <br>   ESC_NUMERO   20]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.229274,-31.357506,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR CARLOS F ORDOÑEZ</name>
+				<description><![CDATA[DR CARLOS F ORDOÑEZ    <br>       <br>   nombre   DR CARLOS F ORDOÑEZ    <br>   ESC_NUMERO   21]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.229421,-31.479194,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR CESAR E ROMERO</name>
+				<description><![CDATA[DR CESAR E ROMERO    <br>       <br>   nombre   DR CESAR E ROMERO    <br>   ESC_NUMERO   22]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.263649,-31.454568,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MUTUALISMO ARGENTINO</name>
+				<description><![CDATA[MUTUALISMO ARGENTINO    <br>       <br>   nombre   MUTUALISMO ARGENTINO    <br>   ESC_NUMERO   23]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.194091,-31.37594,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR ANTONIO SOBRAL</name>
+				<description><![CDATA[DR ANTONIO SOBRAL    <br>       <br>   nombre   DR ANTONIO SOBRAL    <br>   ESC_NUMERO   24]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.13205,-31.404081,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>LUZ VIEIRA MENDEZ</name>
+				<description><![CDATA[LUZ VIEIRA MENDEZ    <br>       <br>   nombre   LUZ VIEIRA MENDEZ    <br>   ESC_NUMERO   25]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.24647,-31.424654,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ESCR A PAREDES</name>
+				<description><![CDATA[ESCR A PAREDES    <br>       <br>   nombre   ESCR A PAREDES    <br>   ESC_NUMERO   26]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.150599,-31.363003,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR RAUL FERNANDEZ</name>
+				<description><![CDATA[DR RAUL FERNANDEZ    <br>       <br>   nombre   DR RAUL FERNANDEZ    <br>   ESC_NUMERO   27]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.284184,-31.314072,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR HORACIO GARCIA</name>
+				<description><![CDATA[DR HORACIO GARCIA    <br>       <br>   nombre   DR HORACIO GARCIA    <br>   ESC_NUMERO   28]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.266668,-31.316508,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR JORGE ORGAZ</name>
+				<description><![CDATA[DR JORGE ORGAZ    <br>       <br>   nombre   DR JORGE ORGAZ    <br>   ESC_NUMERO   29]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.293607,-31.319574,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>EMILIO B LAZCANO</name>
+				<description><![CDATA[EMILIO B LAZCANO    <br>       <br>   nombre   EMILIO B LAZCANO    <br>   ESC_NUMERO   30]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.240472,-31.392052,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>JUAN B JUSTO</name>
+				<description><![CDATA[JUAN B JUSTO    <br>       <br>   nombre   JUAN B JUSTO    <br>   ESC_NUMERO   31]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.23113,-31.392398,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SAUL TABORDA</name>
+				<description><![CDATA[SAUL TABORDA    <br>       <br>   nombre   SAUL TABORDA    <br>   ESC_NUMERO   32]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.273556,-31.328932,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>REPUBLICA DE ITALIA</name>
+				<description><![CDATA[REPUBLICA DE ITALIA    <br>       <br>   nombre   REPUBLICA DE ITALIA    <br>   ESC_NUMERO   33]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.23346,-31.467399,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>JORGE LUIS BORGES</name>
+				<description><![CDATA[JORGE LUIS BORGES    <br>       <br>   nombre   JORGE LUIS BORGES    <br>   ESC_NUMERO   34]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.131824,-31.373638,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>GOB A ZANICHELLI</name>
+				<description><![CDATA[GOB A ZANICHELLI    <br>       <br>   nombre   GOB A ZANICHELLI    <br>   ESC_NUMERO   14]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.156238,-31.35718,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>MTRO MANUEL OLIVA</name>
+				<description><![CDATA[MTRO MANUEL OLIVA    <br>       <br>   nombre   MTRO MANUEL OLIVA    <br>   ESC_NUMERO   35]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.258361,-31.318858,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DRA ALICIA MOREAU</name>
+				<description><![CDATA[DRA ALICIA MOREAU    <br>       <br>   nombre   DRA ALICIA MOREAU    <br>   ESC_NUMERO   36]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.216023,-31.470484,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DR ALFREDO ORGAZ</name>
+				<description><![CDATA[DR ALFREDO ORGAZ    <br>       <br>   nombre   DR ALFREDO ORGAZ    <br>   ESC_NUMERO   37]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.134248,-31.372428,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DOMINGO F SARMIENTO</name>
+				<description><![CDATA[DOMINGO F SARMIENTO    <br>       <br>   nombre   DOMINGO F SARMIENTO    <br>   ESC_NUMERO   38]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<Point>
+					<coordinates>-64.128646,-31.457387,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+				<Style id='icon-1899-0288D1-nodesc-normal'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1899-0288D1-nodesc-highlight'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1899-0288D1-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1899-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1899-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1899-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1899-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
