@@ -40,7 +40,7 @@ class Config(object):
     TWITTER_CONSUMER_SECRET = twitter_secret
 
     # Twitter allowed user to create a new point
-    TWITTER_ALLOWED = ['fnbellomo', 'ucaomo']
+    TWITTER_ALLOWED = ['fnbellomo', 'ucaomo', 'Rikh1975', 'JMGonzalez30']
 
 
 class ProductionConfig(Config):
