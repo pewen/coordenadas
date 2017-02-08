@@ -72,7 +72,7 @@ p {
  * NavBar
  ****************************************/
 .navbar-inverse {
-    background-color: transparent;
+    background: transparent;
     border-color: transparent;
     -moz-transition: background-color .2s ease;
     -webkit-transition: background-color .2s ease;
@@ -81,11 +81,11 @@ p {
 }
 .navbar-inverse .navbar-nav > .active > a{
     background-color: transparent;
-    color: rgb(255, 255, 255);
+    color: #000;
 }
 .navbar-inverse .navbar-nav > li > a {
     background-color: transparent;
-    color: rgb(255, 255, 255);
+    color: #000;
 }
 .navbar-brand > img {
     display: block;
@@ -99,10 +99,10 @@ p {
     
 }
 .navbar-nav{
-    margin: 0 auto;
     display: table;
     table-layout: fixed;
-    float: none;
+    float: right;
+    padding-top: 13px;
 }
 .navbar-custom {
     font-weight: 700;
