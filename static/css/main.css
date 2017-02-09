@@ -323,25 +323,44 @@ p {
 		       no-repeat center center fixed;
     }
 }
-
-
 /****************************************
  * Definiciones
  ***************************************/
 #def {
     background-image: url("../img/carousel/cover2.JPG");
+    background-position: center center;
+    width: 100%;
+    height: 1050px;
+    padding-top : 100px;
+}
+
+@media only screen and (min-width : 992px) {
+    #def {
+	background-image: url("../img/backgrounds/cover2_sm.JPG");
+	height: 900px;
+    }
+}
+
+@media only screen and (min-width : 1200px) {
+    #def {
+	background-image: url("../img/backgrounds/cover2.JPG");
+	height: 900px;
+    }
+}
+
+#colaboration {
+    background-image: url("../img/mapeo_colaborativo2.jpg");
+    background-position: center center;
     width: 100%;
     height: 1000px;
     padding-top : 100px;
     padding-bottom: 100px;
 }
 
-#colaboration {
-    background-image: url("../img/mapeo_colaborativo2.jpg");
-    width: 100%;
-    height: 1000px;
-    padding-top : 100px;
-    padding-bottom: 100px;
+@media only screen and (min-width : 992px) {
+    #colaboration {
+	height: 800px;
+    }
 }
 
 .box-def {
