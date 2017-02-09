@@ -25,47 +25,56 @@ title: Análisis datos
       </header>
 
     <div class="row">
+      {% raw %}
       <div class="col-sm-1 col-sm-offset-2">
 	<a href="https://www.python.org/" target="_blank">
-	  <img src="{{ "/img/herramientas/Python-logo.svg.png" | prepend: site.baseurl }}" class="img-responsive" atr="python logo" />
+	  <img src="{{ serverUrl + "static/img/herramientas/Python-logo.png" }}"
+	       class="img-responsive" atr="python logo" />
 	</a>
       </div><!--/col -->
 
       <div class="col-sm-1">
 	<a href="http://www.numpy.org/" target="_blank">
-	  <img src="{{ "/img/herramientas/numpy-scipy_logo.png" | prepend: site.baseurl }}" class="img-responsive" atr="Numpy logo" />
+	  <img src="{{ serverUrl + "static/img/herramientas/numpy-scipy_logo.png" }}"
+	       class="img-responsive" atr="Numpy logo" />
 	</a>
       </div><!--/col -->
 
       <div class="col-sm-1">
 	<a href="https://git-scm.com/" target="_blank">
-	  <img src="{{ "/img/herramientas/git.sh-600x600.png" | prepend: site.baseurl }}" class="img-responsive" atr="Git logo" />
+	  <img src="{{ serverUrl + "static/img/herramientas/git.sh-600x600.png" }}"
+	       class="img-responsive" atr="Git logo" />
 	</a>
       </div><!--/col -->
 
       <div class="col-sm-1">
 	<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
-	  <img src="{{ "/img/herramientas/HTML5_Badge_512.png" | prepend: site.baseurl }}" class="img-responsive" atr="HTML5 logo" />
+	  <img src="{{ serverUrl + "static/img/herramientas/HTML5_Badge_512.png" }}"
+	       class="img-responsive" atr="HTML5 logo" />
 	</a>
       </div><!--/col -->
 
       <div class="col-sm-1">
 	<a href="http://leafletjs.com/" target="_blank">
-	  <img src="{{ "/img/herramientas/leaflet_logo.png" | prepend: site.baseurl }}" class="img-responsive" atr="Leaflet logo" />
+	  <img src="{{ serverUrl + "static/img/herramientas/leaflet_logo.png" }}"
+	       class="img-responsive" atr="Leaflet logo" />
 	</a>
       </div><!--/col -->
       
       <div class="col-sm-1">
 	<a href="https://d3js.org/" target="_blank">
-	  <img src="{{ "/img/herramientas/Logo_D3.svg.png" | prepend: site.baseurl }}" class="img-responsive" atr="D3 logo" />
+	  <img src="{{ serverUrl + "static/img/herramientas/Logo_D3.png" }}"
+	       class="img-responsive" atr="D3 logo" />
 	</a>
       </div><!--/col -->
 
       <div class="col-sm-1">
 	<a href="https://developers.google.com/maps/" target="_blank">
-	  <img src="{{ "/img/herramientas/google_maps_logo-450x450.png" | prepend: site.baseurl }}" class="img-responsive" atr="Google maps logo" />
+	  <img src="{{ serverUrl + "static/img/herramientas/google_maps_logo.png" }}"
+	       class="img-responsive" atr="Google maps logo" />
 	</a>
       </div><!--/col -->
+      {% endraw %}
     </div><!--/row -->
 
   </div><!--/container -->
@@ -77,7 +86,7 @@ title: Análisis datos
 <section id="source" >
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-6 col-md-4">
 	<div class="box-def">
 	  <h2>Fuentes</h2>
 	  <p>Entre las diversas fuentes de información, podemos destacar a:</p>
@@ -230,23 +239,23 @@ title: Análisis datos
 <!-- bootstrap-slider.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/bootstrap-slider.min.js"></script>
 <!-- D3.JS -->
-<script src="{{ "/libs/d3.v3.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
-<script src="{{ "/libs/d3.tip.v0.6.3.js" | prepend: site.baseurl }}"></script>
+<script src="{{ serverUrl + "static/libs/d3.v3.min.js" }}" charset="utf-8"></script>
+<script src="{{ serverUrl + "static/libs/d3.tip.v0.6.3.js" }}"></script>
 <!-- Dimple -->
-<script src="{{ "/libs/dimple.v2.1.2.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ serverUrl + "static/libs/dimple.v2.1.2.min.js" }}"></script>
 
 <!-- Personal Scripts -->
 <!-- ================ -->
 
 <!-- Histogram per depto  -->
-<script src="{{ "/js/analysis/deptoBarPlot.js" | prepend: site.baseurl }}"></script>
+<script src="{{ serverUrl + "static/js/analysis/deptoBarPlot.js" }}"></script>
 <!-- Make the google map plot -->
-<script src="{{ "/js/analysis/static_map.js" | prepend: site.baseurl }}"></script>
+<script src="{{ serverUrl + "static/js/analysis/static_map.js" }}"></script>
 <!-- Resize the Map -->
-<script src="{{ "/js/resize.js" | prepend: site.baseurl }}"></script>
+<script src="{{ serverUrl + "static/js/resize.js" }}"></script>
 <!-- Filter scroll bar -->
-<script src="{{ "/js/analysis/filter_slide.js" | prepend: site.baseurl }}"></script>
+<script src="{{ serverUrl + "static/js/analysis/filter_slide.js" }}"></script>
 <!-- Censo bar plots  -->
-<script src="{{ "/js/analysis/makeBarPlot.js" | prepend: site.baseurl }}"></script>
+<script src="{{ serverUrl + "static/js/analysis/makeBarPlot.js" }}"></script>
 <!-- CSS Bar plots styles -->
-<link rel="stylesheet" href="{{ "/css/censoPlots.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ serverUrl + "static/css/censoPlots.css" }}">
