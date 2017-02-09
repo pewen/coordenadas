@@ -245,7 +245,8 @@ p {
 
 /* Background images */
 .ad1 {
-    background: url(../img/carousel/cover4.JPG) no-repeat center center fixed;
+    background: url(../img/carousel/cover4_xs.JPG)
+		   no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -253,7 +254,8 @@ p {
 }
 
 .ad2 {
-    background: url(../img/carousel/cover3.JPG) no-repeat center center fixed;
+    background: url(../img/carousel/cover3_xs.JPG)
+		   no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -261,7 +263,8 @@ p {
 }
 
 .ad3 {
-    background: url(../img/carousel/cover5.JPG) no-repeat center center fixed; 
+    background: url(../img/carousel/cover5_xs.JPG)
+		   no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -269,12 +272,59 @@ p {
 }
 
 .ad4 {
-    background: url(../img/carousel/cover1.JPG) no-repeat center center fixed; 
+    background: url(../img/carousel/cover1_xs.JPG)
+		   no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
+@media only screen and (min-width : 768px) {
+    .ad1 {
+	background: url(../img/carousel/cover4_sm.JPG)
+		       no-repeat center center fixed;
+    }
+
+    .ad2 {
+	background: url(../img/carousel/cover3_sm.JPG)
+		       no-repeat center center fixed;
+    }
+
+    .ad3 {
+	background: url(../img/carousel/cover5_sm.JPG)
+		       no-repeat center center fixed;
+    }
+
+    .ad4 {
+	background: url(../img/carousel/cover1_sm.JPG)
+		       no-repeat center center fixed;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .ad1 {
+	background: url(../img/carousel/cover4.JPG)
+		       no-repeat center center fixed;
+    }
+
+    .ad2 {
+	background: url(../img/carousel/cover3.JPG)
+		       no-repeat center center fixed;
+    }
+
+    .ad3 {
+	background: url(../img/carousel/cover5.JPG)
+		       no-repeat center center fixed;
+    }
+
+    .ad4 {
+	background: url(../img/carousel/cover1.JPG)
+		       no-repeat center center fixed;
+    }
+}
+
+
 /****************************************
  * Definiciones
  ***************************************/
