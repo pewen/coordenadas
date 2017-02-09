@@ -81,21 +81,11 @@ p {
 }
 
 /* Color of the menu button */
-.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #000;
+.navbar-toggle {
+    margin-top: 20px;
 }
-.navbar-button {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    color: rgb(157, 157, 157);
-    font-weight: bold;
-    cursor: pointer;
-}
-.navbar-button:hover {
-    color: #fff;
-    background-color: transparent;
-    cursor: pointer;
-}
+
+
 /* logo */
 .img-logo {
     max-width: 200px;
@@ -106,12 +96,19 @@ p {
     }
 }
 
-.navbar-nav{
-    display: table;
-    table-layout: fixed;
-    float: right;
+.navbar-nav {
+    text-align: center;
+    float: none;
     padding-top: 13px;
 }
+
+@media only screen and (min-width : 980px) {
+    .navbar-nav {
+	float: right;
+    }
+}
+
+
 .navbar-custom {
     font-weight: 700;
     text-transform: uppercase;
@@ -403,11 +400,19 @@ p {
  ***************************************/
 #videoChequeado {
     padding-top: 100px;
-    background: url(../img/mapeo_colaborativo.jpg) no-repeat center center fixed; 
+    height: 500px;
+    background: url("../img/backgrounds/mapeo.JPG")
+		   no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+@media only screen and (min-width : 768px) {
+    #videoChequeado {
+	height: 800px;
+    }
 }
 
 .video_title {
@@ -420,11 +425,16 @@ p {
 #howCollaborate {
     background-image: url("../img/noticia2.jpg");
     width: 100%;
-    height: 600px;
+    height: 1050px;
     padding-top : 100px;
     padding-bottom: 100px;
 }
 
+@media only screen and (min-width : 768px) {
+    #howCollaborate {
+	height: 800px;
+    }
+}
 
 #mapaColaborativo {
     padding-top: 50px;
@@ -491,7 +501,6 @@ p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100%;
     padding-top: 200px;
 }
 
