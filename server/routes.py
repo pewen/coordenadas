@@ -179,7 +179,15 @@ def mapa():
 @app.route('/analisis')
 def analisis():
     return render_template("analisis.html",
-                           serverUrl=app.config['SERVER_URL'])
+                           serverUrl=app.config['SERVER_URL'],
+                           layersNames=app.config['VALID_LAYER_NAME'],
+                           layersFullName=app.config['LAYER_FULL_NAME'])
+
+
+@app.route('/analisis/por_departamento')
+def por_departamento():
+    # Cortaderos por departamento
+    return render_template("cortaderos_por_departamentos_cordoba.html")
 
 
 @app.route('/equipo')

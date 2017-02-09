@@ -2,36 +2,39 @@
   Visualizacion de los datos en un mapa de google
 
   Desarrollador: Franco N. Bellomo - @fnbellomo
+
+  Global variables previously declared
+  ------------------------------------
+  serverUrl: str
+    Base url of the server
+  layersNames: object
+    Names of all the layers
+  layersFullName: object
+    Full name of each layer
 */
 
-// General map variable
-var map;
-
-// Name of the 3 differents layers
-var cortaderosLayer;
-var healthLayer;
-var primaryLayer;
-var secondaryLayer;
-
-// Variables used to show or hide the different layers
-var showCortaderosLayer = true;
-var showHealtLayer = true;
-var showPrimaryLayer = true;
-var showSecondaryLayer = true;
+var map; // General map variable
+var layers = {}; // Object with all the layers
+var infoWindow; // General infoWindow variable
+var url = serverUrl + "api/v1.0/datos/"; // Base url from get the data
 
 // Variables used with the new markers
+// ===================================
 var markers = {};
 var currentId = 0;
 var uniqueId = function() {
     return ++currentId;
 }
 
-// General infoWindow variable
-var infoWindow;
-
-// Base url from get the data
-//var url = "http://127.0.0.1:5000/api/v1.0/datos/";
-var url = "https://raw.githubusercontent.com/pewen/mapa_cortaderos/master/datos/"
+// Personal icons for each layer
+// The style depending if the point is valid, to validate or to delete
+// =====================================
+var iconBase = '../static/img/markers/';
+var icons = {};
+for (layer of layersNames) {
+    icons[layer] = {'name': layersFullName[layer],
+		   icon: iconBase + layer + '.png'}
+}
 
 
 function initMap() {
@@ -40,53 +43,31 @@ function initMap() {
 	zoom: 12,
 	center: {lat: -31.45, lng: -64.18}
     });
-    
-    // Initialize all the layers
-    cortaderosLayer = new google.maps.Data();
-    healthLayer     = new google.maps.Data();
-    primaryLayer    = new google.maps.Data();
-    secondaryLayer  = new google.maps.Data();
 
     // Create a global infowindow
     infoWindow = new google.maps.InfoWindow({
         content: "",
         pixelOffset: new google.maps.Size(0, -30)
     });
-    
+
+    // Initialize all the layers
+    for (var layer of layersNames) {
+	layers[layer] = new google.maps.Data();
+    }
+
     // Load GeoJSON with the data of each layer
-    cortaderosLayer.loadGeoJson(url + "cortaderos.geojson");
-    healthLayer.loadGeoJson(url + "salud.geojson");
-    primaryLayer.loadGeoJson(url + "primarios.geojson");
-    secondaryLayer.loadGeoJson(url + "secundarios.geojson");
+    for (var layer of layersNames) {
+	layers[layer].loadGeoJson(url + layer);
+    }
 
+    // Set the style to each layer
+    for (var layer of layersNames) {
+	layers[layer].setStyle(function (feature) {
+	    var type = feature.getProperty('type');
+	    return icons[type];
+	});
+    }
     
-    // Personal icons for each layer
-    var iconBase = '../img/markers/';
-    var icons = {
-        Cortadero: {
-            name: 'Cortaderos',
-	    icon: iconBase + 'brick.png'
-        },
-        Healt: {
-            name: 'Centro de Salud',
-	    icon: iconBase + 'health.png'
-        },
-	Primary: {
-            name: 'Instituto Primario',
-	    icon: iconBase + 'primary.png'
-        },
-	Secondary: {
-            name: 'Instituto Secundario',
-	    icon: iconBase + 'secondary.png'
-        }
-    };
-
-    // Set the style for each layer
-    cortaderosLayer.setStyle(icons['Cortadero']);
-    healthLayer.setStyle(icons['Healt']);
-    primaryLayer.setStyle(icons['Primary']);
-    secondaryLayer.setStyle(icons['Secondary']);
-
     // Generate map legend
     var legend = document.getElementById('legend');
     for (var key in icons) {
@@ -102,56 +83,41 @@ function initMap() {
     map.controls[google.maps.ControlPosition.LEFT].push(legend);
 
     // Show popup on click event
-    cortaderosLayer.addListener('click', function(event) {
+    layers.cortaderos.addListener('click', function(event) {
 	cortaderosPopup();
     })
     
     // Display layers in the map
-    cortaderosLayer.setMap(map);
-    healthLayer.setMap(map);
-    primaryLayer.setMap(map);
-    secondaryLayer.setMap(map);
+    for (layer of layersNames) {
+	layers[layer].setMap(map);
+    }
 };
 
 // Open cortadero popup
-function cortaderosPopup() {
-    infoWindow.setContent('<div style="line-height:1.35;overflow:hidden;white-space:nowrap;">' +
-			  '<h4>' + event.feature.getProperty('name') + '</h4>' +
-			  '</div>')
+function cortaderosPopup(event) {
+    var name = event.feature.getProperty('name');
+    infoWindow.setContent(infoWindowTemplate.format(name));
 }
 
 
 // Show hide the differents layers
-function showHideLayers(element) {
-    if (element == 'Cortaderos') {
-	showCortaderosLayer = !showCortaderosLayer
-	if (showCortaderosLayer) {
-	    cortaderosLayer.setMap(map);
-	} else {
-	    cortaderosLayer.setMap(null);
-	}
+function showHideLayers(layer) {
+    /*
+      Show hide the differents layers
 
-    } else if (element == 'Centro de Salud') {
-	showHealtLayer = !showHealtLayer;
-	if (showHealtLayer) {
-	    healthLayer.setMap(map);
-	} else {
-	    healthLayer.setMap(null);
-	}
-
-    } else if (element == 'Instituto Primario') {
-	showPrimaryLayer = !showPrimaryLayer;
-	if (showPrimaryLayer) {
-	    primaryLayer.setMap(map);
-	} else {
-	    primaryLayer.setMap(null);
-	}
-    } else if (element == 'Instituto Secundario') {
-	showSecondaryLayer = !showSecondaryLayer;
-	if (showSecondaryLayer) {
-	   secondaryLayer.setMap(map);
-	} else {
-	    secondaryLayer.setMap(null);
-	}
+      layer: name of the layer
+    */
+    if (layers[layer].getMap()){
+	layers[layer].setMap(null);
+    }
+    else {
+	layers[layer].setMap(map);
     }
 }
+
+// Templates
+// {0}: event.feature.getProperty('name')
+var infoWindowTemplate = `
+<div style="line-height:1.35;overflow:hidden;white-space:nowrap;">
+  <h4>{0}</h4>
+</div>`
