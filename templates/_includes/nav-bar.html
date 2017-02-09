@@ -7,24 +7,24 @@
 
   <div class="container-fluid" style="padding-bottom: 10px;">
     <div class="navbar-header">
+      <!-- Button menu en xs sm -->
       <button type="button" class="navbar-toggle" data-toggle="collapse"
 	      data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-
       <!-- logo -->
-      <a class="navbar-brand logo-img">
+      <a class="navbar-brand">
 	<span>
-	  <img class="img-responsive" src="static/img/logo_chequeado.png"
-	       style="max-width: 400px;" />
+	  <img class="img-responsive img-logo"
+	       src="static/img/logo_chequeado.png" />
 	</span>
       </a>
 
     </div><!--/ navbar-header -->
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navbar-custom">
 	{% raw %}
         <li><a href="{{ serverUrl }}">INICIO</a></li>
         <li><a href="{{ serverUrl + "mapa" }}">MAPA COLECTIVO</a></li>
