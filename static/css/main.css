@@ -324,7 +324,7 @@ p {
     }
 }
 /****************************************
- * Definiciones
+ * Definiciones index
  ***************************************/
 #def {
     background-image: url("../img/carousel/cover2.JPG");
@@ -363,6 +363,9 @@ p {
     }
 }
 
+/****************************************
+ * Box-def
+ ***************************************/
 .box-def {
     background: #FFF none repeat scroll 0% 0%;
     box-shadow: 3px 4px 15px -6px #000;
@@ -371,7 +374,6 @@ p {
     margin-bottom: 50px;
     margin-top: 50px;
 }
-
 .box-def h2 {
     color: #292636;
     font-size: 35px;
@@ -382,14 +384,12 @@ p {
     border-bottom: 1px solid #D4DFF6;
     padding: 0px 15px 18px;
 }
-
 .box-def h3 {
     border-bottom: 1px solid #D4DFF6;
     padding: 0px 15px 18px;
     font-size: 24px;
     font-weight: bold;
 }
-
 .box-def p {
     color: #87818C;
     font-size: 16px;
@@ -559,7 +559,9 @@ p {
 }
 
 .footer-texto {
-    text-align: center;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 10px;
 }
 
 .footer-texto > p {
