@@ -85,7 +85,6 @@ p {
     margin-top: 20px;
 }
 
-
 /* logo */
 .img-logo {
     max-width: 200px;
@@ -496,11 +495,13 @@ p {
  * Analisis
  ***************************************/
 #banner_analysis{
-    background: url(../img/data.png) no-repeat center center fixed; 
+    background: url("../img/backgrounds/data.png")
+		   no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100%;
     padding-top: 200px;
 }
 
