@@ -17,6 +17,7 @@ var map; // General map variable
 var layers = {}; // Object with all the layers
 var infoWindow; // General infoWindow variable
 var url = serverUrl + "api/v1.0/datos/"; // Base url from get the data
+var legend; // Legend of the map
 
 // Variables used with the new markers
 // ===================================
@@ -98,27 +99,12 @@ function initMap() {
     setStyle();
 
     // Generate map legend
-    var legend = document.getElementById('legend');
-    for (var key in icons) {
-        var div = document.createElement('div');
-	div.className = "legend-item";
-        div.innerHTML = legendTemplate.format(icons[key]['icon'],
-					      icons[key]['name'],
-					      key);
-        legend.appendChild(div);
+    legend = createLegend();
+    // Show in map only if the size width of the screen is > 359
+    if ($(document).width() > 359) {
+	// Push the legend
+	map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
     }
-    if (getCookie('status')) {
-	for (var key in loginLegend) {
-	    var div = document.createElement('div');
-	    div.className = "legend-item";
-            div.innerHTML = loginLegend[key]['text']
-		.format(loginLegend[key]['icon'],
-			loginLegend[key]['name']);
-            legend.appendChild(div);
-	}
-    }
-    // Push the legend
-    map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
 
     // Show the infoWindow when the user click in a point
     for (layer of layersNames) {
@@ -138,6 +124,69 @@ function initMap() {
 	layers[layer].setMap(map);
     }
 };
+
+
+// Function to create the ledeng and add a listened
+// when the window size change
+// ================================================
+
+function createLegend() {
+    /*
+      Create the map legend
+    */
+
+    // If the legend exist, fisrt delete it
+    if (document.getElementById('legend')) {
+	document.getElementById('legend').remove();
+    }
+    
+    // Create the legend container
+    var mapContainer = document.getElementById('mapContainer');
+    var legendDiv = document.createElement('div');
+    legendDiv.id = "legend";
+    mapContainer.appendChild(legendDiv);
+    
+    // Append the laters icon reference
+    for (var key in icons) {
+        var div = document.createElement('div');
+	div.className = "legend-item";
+        div.innerHTML = legendTemplate.format(icons[key]['icon'],
+					      icons[key]['name'],
+					      key);
+        legendDiv.appendChild(div);
+    }
+
+    // If the user are login, append the validate layer reference
+    if (getCookie('status')) {
+	for (var key in loginLegend) {
+	    var div = document.createElement('div');
+	    div.className = "legend-item";
+	    div.innerHTML = loginLegend[key]['text']
+		.format(loginLegend[key]['icon'],
+			loginLegend[key]['name']);
+	    legendDiv.appendChild(div);
+	}
+    }
+
+    return legendDiv;
+}
+
+window.addEventListener('resize', function() {
+    var mapsControls = map.controls[google.maps.ControlPosition.RIGHT_BOTTOM];
+
+    if (mapsControls.length > 0) {
+	mapsControls.pop();
+    }
+    
+    if ($(document).width() > 359) {
+	// Push the legend
+	var legend = createLegend();
+	mapsControls.push(legend);
+    }
+    else {
+	createLegend();
+    }
+});
 
 
 // Function to set the style 
