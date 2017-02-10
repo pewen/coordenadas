@@ -86,12 +86,32 @@ p {
 }
 
 /* logo */
-.img-logo {
-    max-width: 200px;
+.logo-small {
+    max-width: 130px;
+    padding-top: 10px;
+    display:block;
 }
+
+.logo-normal {
+    max-width: 200px;
+    padding-top: 10px;
+    display: none;
+}
+
+@media (min-width: 290px) {
+    .logo-small {
+	display: none;
+    }
+
+    .logo-normal {
+	display: block;
+    }
+}
+
 @media only screen and (min-width : 768px) {
-    .img-logo {
+    .logo-normal {
 	max-width: 400px;
+	padding-top: 0px;
     }
 }
 
