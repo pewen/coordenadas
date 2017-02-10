@@ -1,6 +1,17 @@
 var myChart;
 
 $(document).ready(function() {
+    // Size of the scatterMap
+    var div = document.getElementById('scatterMap'),
+	divStyle = window.getComputedStyle(div),
+	containerHeight = parseFloat(divStyle.height);
+
+    // Padding top to use
+    var paddingTop = (containerHeight - 400)/2;
+    // Set the padding
+    var plot = document.getElementById('deptoPlot');
+    plot.style.paddingTop = 60 + 'px';
+    
     var svg = d3.select("#deptoPlot");
 
     d3.csv("analisis/datos/cantidad_por_departamento.csv",

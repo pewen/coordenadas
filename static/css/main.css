@@ -10,52 +10,42 @@
 body {
     font-family: Helvetica, Arial;
 }
-
 .site-name {
     font-family: 'Raleway', sans-serif;
 }
-
 html, body {
     height: 100%;
 }
-
 body {
     font-size: 15px;
     line-height: 1.50;
     color: #333333;
     text-align: center;
 }
-
 ol, ul {
     list-style: outside none none;
 }
-
 .list-icons {
     padding: 0;
     margin: 20px 0;
     list-style: none;
     font-size: 18px;
 }
-
 .list-icons li {
     padding: 0 0 15px 0;
 }
-
 blockquote {
     border-left: none;
     padding-left: 0;
     padding-right: 0;
 }
-
 .title {
     margin-top: 0;
 }
-
 p {
     line-height: 28px;
     margin-bottom: 25px;
 }
-
 .header-hidden {
     position: absolute !important;
     clip: rect(1px, 1px, 1px, 1px);
@@ -68,81 +58,6 @@ p {
 .form-horizontal .control-label {
     text-align: left;
 }
-/****************************************
- * NavBar
- ****************************************/
-.navbar-inverse {
-    background: transparent;
-    border-color: transparent;
-    -moz-transition: background-color .2s ease;
-    -webkit-transition: background-color .2s ease;
-    -ms-transition: background-color .2s ease;
-    transition: background-color .2s ease;
-}
-
-/* Color of the menu button */
-.navbar-toggle {
-    margin-top: 20px;
-}
-
-/* logo */
-.logo-small {
-    max-width: 130px;
-    padding-top: 10px;
-    display:block;
-}
-
-.logo-normal {
-    max-width: 200px;
-    padding-top: 10px;
-    display: none;
-}
-
-@media (min-width: 290px) {
-    .logo-small {
-	display: none;
-    }
-
-    .logo-normal {
-	display: block;
-    }
-}
-
-@media only screen and (min-width : 768px) {
-    .logo-normal {
-	max-width: 400px;
-	padding-top: 0px;
-    }
-}
-
-.navbar-nav {
-    text-align: center;
-    float: none;
-    padding-top: 13px;
-}
-
-@media only screen and (min-width : 980px) {
-    .navbar-nav {
-	float: right;
-    }
-}
-
-
-.navbar-custom {
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-    font-weight: bold;
-    background-color: transparent;
-    color: #000;
-}
-.navbar-inverse .navbar-nav > .active > a{
-    background-color: transparent;
-    color: #000;
-}
-
 /****************************************
  * Buttons
  ****************************************/
@@ -171,6 +86,105 @@ p {
 }
 .btn-online {
     font-size: 20px;
+}
+/****************************************
+ * Box-def
+ ***************************************/
+.box-def {
+    background: #FFF none repeat scroll 0% 0%;
+    box-shadow: 3px 4px 15px -6px #000;
+    padding: 20px 25px;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.box-def h2 {
+    color: #292636;
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 1.3em;
+    margin: 0px 0px 20px;
+    border-bottom: 1px solid #D4DFF6;
+    padding: 0px 15px 18px;
+}
+.box-def h3 {
+    border-bottom: 1px solid #D4DFF6;
+    padding: 0px 15px 18px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.box-def p {
+    color: #87818C;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 1.6em;
+    padding: 0px 15px;
+    text-align: justify;
+}
+/****************************************
+ * NavBar
+ ****************************************/
+.navbar-inverse {
+    background: transparent;
+    border-color: transparent;
+    -moz-transition: background-color .2s ease;
+    -webkit-transition: background-color .2s ease;
+    -ms-transition: background-color .2s ease;
+    transition: background-color .2s ease;
+}
+/* Color of the menu button */
+.navbar-toggle {
+    margin-top: 20px;
+}
+/* logo */
+.logo-small {
+    max-width: 130px;
+    padding-top: 10px;
+    display:block;
+}
+.logo-normal {
+    max-width: 200px;
+    padding-top: 10px;
+    display: none;
+}
+@media (min-width: 290px) {
+    .logo-small {
+	display: none;
+    }
+
+    .logo-normal {
+	display: block;
+    }
+}
+@media only screen and (min-width : 768px) {
+    .logo-normal {
+	max-width: 400px;
+	padding-top: 0px;
+    }
+}
+.navbar-nav {
+    text-align: center;
+    float: none;
+    padding-top: 13px;
+}
+@media only screen and (min-width : 980px) {
+    .navbar-nav {
+	float: right;
+    }
+}
+.navbar-custom {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav > li > a {
+    font-weight: bold;
+    background-color: transparent;
+    color: #000;
+}
+.navbar-inverse .navbar-nav > .active > a{
+    background-color: transparent;
+    color: #000;
 }
 /****************************************
  * Social
@@ -223,119 +237,101 @@ p {
 .active {
     height: 100%;
 }
-
 .carousel-inner {
     height: 100%;
 }
-
 .carousel-inner .item {
     width: 100%;
     height: 100%;
 }
-
 .carousel-caption h3 {
     font-size: 40px;
     text-align: left;
 }
-
 .carousel-caption p.hidden-xs {
     margin-top: 5%;
     text-align: left;
     padding-left: -30%;
     font-size: 30px;
 }
-
 .carousel-caption p.visible-sm {
     margin-top: 15%;
     text-align: left;
     padding-left: 10%;
     font-size: 25px;
 }
-
 .carousel-caption p.visible-xs {
     margin-top: 30%;
     text-align: left;
     padding-left: 10%;
     font-size: 20px;
 }
-
 /* Background images */
 .ad1 {
-    background: url(../img/carousel/cover4_xs.JPG)
+    background: url("../img/carousel/cover4_xs.JPG")
 		   no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 .ad2 {
-    background: url(../img/carousel/cover3_xs.JPG)
+    background: url("../img/carousel/cover3_xs.JPG")
 		   no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 .ad3 {
-    background: url(../img/carousel/cover5_xs.JPG)
+    background: url("../img/carousel/cover5_xs.JPG")
 		   no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 .ad4 {
-    background: url(../img/carousel/cover1_xs.JPG)
+    background: url("../img/carousel/cover1_xs.JPG")
 		   no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 @media only screen and (min-width : 768px) {
     .ad1 {
-	background: url(../img/carousel/cover4_sm.JPG)
+	background: url("../img/carousel/cover4_sm.JPG")
 		       no-repeat center center fixed;
     }
-
     .ad2 {
-	background: url(../img/carousel/cover3_sm.JPG)
+	background: url("../img/carousel/cover3_sm.JPG")
 		       no-repeat center center fixed;
     }
-
     .ad3 {
-	background: url(../img/carousel/cover5_sm.JPG)
+	background: url("../img/carousel/cover5_sm.JPG")
 		       no-repeat center center fixed;
     }
-
     .ad4 {
-	background: url(../img/carousel/cover1_sm.JPG)
+	background: url("../img/carousel/cover1_sm.JPG")
 		       no-repeat center center fixed;
     }
 }
-
 @media only screen and (min-width : 992px) {
     .ad1 {
-	background: url(../img/carousel/cover4.JPG)
+	background: url("../img/carousel/cover4.JPG")
 		       no-repeat center center fixed;
     }
-
     .ad2 {
-	background: url(../img/carousel/cover3.JPG)
+	background: url("../img/carousel/cover3.JPG")
 		       no-repeat center center fixed;
     }
-
     .ad3 {
-	background: url(../img/carousel/cover5.JPG)
+	background: url("../img/carousel/cover5.JPG")
 		       no-repeat center center fixed;
     }
-
     .ad4 {
-	background: url(../img/carousel/cover1.JPG)
+	background: url("../img/carousel/cover1.JPG")
 		       no-repeat center center fixed;
     }
 }
@@ -349,21 +345,18 @@ p {
     height: 1050px;
     padding-top : 100px;
 }
-
 @media only screen and (min-width : 992px) {
     #def {
 	background-image: url("../img/backgrounds/cover2_sm.JPG");
 	height: 900px;
     }
 }
-
 @media only screen and (min-width : 1200px) {
     #def {
 	background-image: url("../img/backgrounds/cover2.JPG");
 	height: 900px;
     }
 }
-
 #colaboration {
     background-image: url("../img/mapeo_colaborativo2.jpg");
     background-position: center center;
@@ -372,47 +365,10 @@ p {
     padding-top : 100px;
     padding-bottom: 100px;
 }
-
 @media only screen and (min-width : 992px) {
     #colaboration {
 	height: 800px;
     }
-}
-
-/****************************************
- * Box-def
- ***************************************/
-.box-def {
-    background: #FFF none repeat scroll 0% 0%;
-    box-shadow: 3px 4px 15px -6px #000;
-    padding: 20px 25px;
-    position: relative;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-.box-def h2 {
-    color: #292636;
-    font-size: 35px;
-    font-weight: 300;
-    letter-spacing: -0.02em;
-    line-height: 1.3em;
-    margin: 0px 0px 20px;
-    border-bottom: 1px solid #D4DFF6;
-    padding: 0px 15px 18px;
-}
-.box-def h3 {
-    border-bottom: 1px solid #D4DFF6;
-    padding: 0px 15px 18px;
-    font-size: 24px;
-    font-weight: bold;
-}
-.box-def p {
-    color: #87818C;
-    font-size: 16px;
-    letter-spacing: -0.02em;
-    line-height: 1.6em;
-    padding: 0px 15px;
-    text-align: justify;
 }
 /****************************************
  * Mapa colaborativo
