@@ -17,6 +17,7 @@ var map; // General map variable
 var layers = {}; // Object with all the layers
 var infoWindow; // General infoWindow variable
 var url = serverUrl + "api/v1.0/datos/"; // Base url from get the data
+var legend; // Legend of the map
 
 // Variables used with the new markers
 // ===================================
@@ -69,18 +70,12 @@ function initMap() {
     }
     
     // Generate map legend
-    var legend = document.getElementById('legend');
-    for (var key in icons) {
-        var type = icons[key];
-        var name = type.name;
-        var icon = type.icon;
-        var div = document.createElement('div');
-	div.className = "legend-item";
-        div.innerHTML = '<img src="' + icon + '"> ' + '<p onclick="showHideLayers(' + "'" + name + "'" + ');">' + name + '</p>';
-        legend.appendChild(div);
+    legend = createLegend();
+    // Show in map only if the size width of the screen is > 359
+    if ($(document).width() > 359) {
+	// Push the legend
+	map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
     }
-    // Push the legend
-    map.controls[google.maps.ControlPosition.LEFT].push(legend);
 
     // Show popup on click event
     layers.cortaderos.addListener('click', function(event) {
@@ -92,6 +87,59 @@ function initMap() {
 	layers[layer].setMap(map);
     }
 };
+
+
+// Function to create the ledeng and add a listened
+// when the window size change
+// ================================================
+
+function createLegend() {
+    /*
+      Create the map legend
+    */
+
+    // If the legend exist, fisrt delete it
+    if (document.getElementById('legend')) {
+	document.getElementById('legend').remove();
+    }
+    
+    // Create the legend container
+    var mapContainer = document.getElementById('mapContainer');
+    var legendDiv = document.createElement('div');
+    legendDiv.id = "legend";
+    mapContainer.appendChild(legendDiv);
+
+    // Append the laters icon reference
+    for (var key in icons) {
+        var type = icons[key];
+        var name = type.name;
+        var icon = type.icon;
+        var div = document.createElement('div');
+	div.className = "legend-item";
+        div.innerHTML = '<img src="' + icon + '"> ' + '<p onclick="showHideLayers(' + "'" + name + "'" + ');">' + name + '</p>';
+        legendDiv.appendChild(div);
+    }
+
+    return legendDiv;
+}
+
+window.addEventListener('resize', function() {
+    var mapsControls = map.controls[google.maps.ControlPosition.RIGHT_BOTTOM];
+
+    if (mapsControls.length > 0) {
+	mapsControls.pop();
+    }
+    
+    if ($(document).width() > 359) {
+	// Push the legend
+	var legend = createLegend();
+	mapsControls.push(legend);
+    }
+    else {
+	createLegend();
+    }
+});
+
 
 // Open cortadero popup
 function cortaderosPopup(event) {
