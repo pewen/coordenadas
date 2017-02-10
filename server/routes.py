@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 """
 API simple para visualizar los ladrilleros de cordoba
 desarrollado en el hack(at)ONG 2016
