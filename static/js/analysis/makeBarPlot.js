@@ -92,7 +92,7 @@ function redrawPlot(divId, typeData){
     svg.call(tip);
     
     // Get the data
-    d3.csv("../data/" + typeData + "_hist.csv", function(error, data) {
+    d3.csv("analisis/datos/" + typeData + "_hist.csv", function(error, data) {
 	if (error) throw error;
 	
 	var ageNames = d3.keys(data[0]).filter(function(key) {

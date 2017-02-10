@@ -184,6 +184,30 @@ def analisis():
                            layersFullName=app.config['LAYER_FULL_NAME'])
 
 
+@app.route('/analisis/datos/<data_name>')
+def get_analysis(data_name):
+    valid_data = ['acceso_agua_hist.csv', 'acceso_area_hist.csv',
+                  'acceso_gas_hist.csv', 'baño_hist.csv',
+                  'educacion_hist.csv', 'hacinamiento_hist.csv',
+                  'cantidad_por_departamento.csv', 'vivienda_hist.csv']
+
+    if data_name not in valid_data:
+        abort(404, 'No existe esos datos')
+
+    path = app.config['DATA_DIR'] + 'analisis/' + data_name
+    csv = ''
+    with open(path) as f:
+        for line in f.readlines():
+            csv += line
+
+    response = make_response(csv)
+    cd = 'attachment; filename=mycsv.csv'
+    response.headers['Content-Disposition'] = cd
+    response.mimetype = 'text/csv'
+
+    return response
+
+
 @app.route('/analisis/por_departamento')
 def por_departamento():
     # Cortaderos por departamento
