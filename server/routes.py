@@ -277,6 +277,39 @@ def get_datos(capa):
         return jsonify(data)
 
 
+@app.route("/api/v1.0/datos/completos/<capa>", methods=['GET'])
+def get_datos_completos(capa):
+    """
+    Retorna un GeoJSON con los datos de alguna capa
+    (cortaderos, salud o educacion).
+    Si esta logeado, retorna los elementos que hay que validar.
+
+    Parameter
+    ---------
+    capa: str
+      Capa a obtener. Puede ser cortaderos, salud, educacion
+
+    Return
+    ------
+    data: geojson
+      GeoJSON con los datos de la capa.
+
+    Error
+    -----
+    400: Nombre de capa invalido
+    """
+    # Chequeo que sea un nombre de capa valido
+    capa = capa.lower()
+    if capa not in app.config['VALID_LAYER_NAME']:
+        abort(400, 'Nombre de capa invalido')
+
+    path = app.config['DATA_DIR'] + 'analisis/completos/' +\
+           capa + '.geojson'
+    data = read4json(path)
+
+    return jsonify(data)
+
+
 @app.route("/api/v1.0/datos/modificar/", methods=['POST'])
 def nuevo_elemento():
     """

@@ -19,13 +19,13 @@ $(document).ready(function() {
 		show = true;
 	    }
 	    return {
-		icon: '../img/markers/brick.png',
+		icon: 'static/img/markers/cortaderos.png',
 		strokeColor: '#fff',
 		fillOpacity: 0.75,
 		visible: show
 	    };
 	}
 
-	cortaderosLayer.setStyle(styleDensity);
+	layers['cortaderos'].setStyle(styleDensity);
     });
 })

@@ -16,7 +16,7 @@
 var map; // General map variable
 var layers = {}; // Object with all the layers
 var infoWindow; // General infoWindow variable
-var url = serverUrl + "api/v1.0/datos/"; // Base url from get the data
+var url = serverUrl + "api/v1.0/datos/completos/"; // Base url from get the data
 var legend; // Legend of the map
 
 // Variables used with the new markers
@@ -30,7 +30,7 @@ var uniqueId = function() {
 // Personal icons for each layer
 // The style depending if the point is valid, to validate or to delete
 // =====================================
-var iconBase = '../static/img/markers/';
+var iconBase = 'static/img/markers/';
 var icons = {};
 for (layer of layersNames) {
     icons[layer] = {'name': layersFullName[layer],
@@ -79,7 +79,7 @@ function initMap() {
 
     // Show popup on click event
     layers.cortaderos.addListener('click', function(event) {
-	cortaderosPopup();
+	cortaderosPopup(event);
     })
     
     // Display layers in the map
@@ -116,7 +116,7 @@ function createLegend() {
         var icon = type.icon;
         var div = document.createElement('div');
 	div.className = "legend-item";
-        div.innerHTML = '<img src="' + icon + '"> ' + '<p onclick="showHideLayers(' + "'" + name + "'" + ');">' + name + '</p>';
+        div.innerHTML = '<img src="' + icon + '"> ' + '<p onclick="showHideLayers(' + "'" + key + "'" + ');">' + name + '</p>';
         legendDiv.appendChild(div);
     }
 
@@ -145,6 +145,15 @@ window.addEventListener('resize', function() {
 function cortaderosPopup(event) {
     var name = event.feature.getProperty('name');
     infoWindow.setContent(infoWindowTemplate.format(name));
+    
+    // Position of the point
+    var anchor = new google.maps.MVCObject();
+    anchor.setValues({
+        position: event.latLng,
+	// Ofset del text-box a las coordenadas
+        anchorPoint: new google.maps.Point(0, 0) 
+    });
+    infoWindow.open(map, anchor);
 }
 
 
